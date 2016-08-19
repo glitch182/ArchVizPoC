@@ -1,0 +1,777 @@
+﻿[2016.08.17-05.59.14:312][  0]Log file open, 08/17/16 11:29:14
+[2016.08.17-05.59.14:312][  0]LogInit:Display: Running engine for game: MyProject
+[2016.08.17-05.59.14:312][  0]LogPlatformFile: Not using cached read wrapper
+[2016.08.17-05.59.14:312][  0]LogInit:Display: RandInit(-1279835083) SRandInit(-1279835082).
+[2016.08.17-05.59.14:312][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.08.17-05.59.14:312][  0]LogStats: Stats thread started at 0.070623
+[2016.08.17-05.59.14:312][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.08.17-05.59.14:312][  0]LogInit: API Version: 2758231
+[2016.08.17-05.59.14:312][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.08.17-05.59.14:312][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.08.17-05.59.14:312][  0]LogInit: Build Configuration: Development
+[2016.08.17-05.59.14:312][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.08.17-05.59.14:312][  0]LogInit: Command line:  
+[2016.08.17-05.59.14:312][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.08.17-05.59.14:312][  0]LogInit: Rocket: 1
+[2016.08.17-05.59.14:321][  0]LogInit: Using libcurl 7.41.0
+[2016.08.17-05.59.14:321][  0]LogInit:  - built for x86_64-pc-win32
+[2016.08.17-05.59.14:321][  0]LogInit:  - supports SSL with WinSSL
+[2016.08.17-05.59.14:321][  0]LogInit:  - other features:
+[2016.08.17-05.59.14:321][  0]LogInit:      CURL_VERSION_SSL
+[2016.08.17-05.59.14:321][  0]LogInit:      CURL_VERSION_IPV6
+[2016.08.17-05.59.14:321][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.08.17-05.59.14:321][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.08.17-05.59.14:321][  0]LogInit:      CURL_VERSION_IDN
+[2016.08.17-05.59.14:321][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.08.17-05.59.14:321][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.08.17-05.59.14:321][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.08.17-05.59.14:321][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.08.17-05.59.14:321][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.08.17-05.59.14:333][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.08.17-05.59.14:342][  0]LogInit: Object subsystem initialized
+[2016.08.17-05.59.14:343][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.17-05.59.14:343][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.17-05.59.14:384][  0]LogInit: Computer: VISHAL-PC
+[2016.08.17-05.59.14:384][  0]LogInit: User: Vishal
+[2016.08.17-05.59.14:384][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.08.17-05.59.14:384][  0]LogInit: High frequency timer resolution =2.240910 MHz
+[2016.08.17-05.59.14:384][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.08.17-05.59.14:384][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.17-05.59.14:384][  0]LogMemory: Process Physical Memory: 59.57 MB used, 59.57 MB peak
+[2016.08.17-05.59.14:384][  0]LogMemory: Process Virtual Memory: 58.66 MB used, 58.66 MB peak
+[2016.08.17-05.59.14:384][  0]LogMemory: Physical Memory: 4584.52 MB used, 8075.38 MB total
+[2016.08.17-05.59.14:384][  0]LogMemory: Virtual Memory: 384.03 MB used, 134217728.00 MB total
+[2016.08.17-05.59.14:554][  0]LogTextLocalizationManager: No specific translations for ('en-IN') exist, so ('en') translations will be used.
+[2016.08.17-05.59.15:175][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce 820M              (Feature Level 11_0)
+[2016.08.17-05.59.15:175][  0]LogD3D11RHI: Adapter has 1999MB of dedicated video memory, 0MB of dedicated system memory, and 4037MB of shared system memory, 1 output[s]
+[2016.08.17-05.59.15:187][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2016.08.17-05.59.15:187][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 4037MB of shared system memory, 0 output[s]
+[2016.08.17-05.59.15:191][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.08.17-05.59.15:191][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4037MB of shared system memory, 0 output[s]
+[2016.08.17-05.59.15:191][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.08.17-05.59.15:197][  0]LogD3D11RHI: !Direct3DDevice
+[2016.08.17-05.59.15:197][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.17-05.59.15:219][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.17-05.59.15:232][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Intermediate/Shaders/WorkingDirectory/9112/).
+[2016.08.17-05.59.15:233][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Vishal/AppData/Local/Temp/UnrealShaderWorkingDir/AA4ED69A438ED93228919797957165A1/'.
+[2016.08.17-05.59.15:233][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.17-05.59.17:463][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.17-05.59.17:470][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.17-05.59.17:480][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.17-05.59.17:487][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.17-05.59.17:496][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.17-05.59.17:506][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.17-05.59.17:513][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.17-05.59.17:520][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.17-05.59.17:528][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.17-05.59.17:534][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.17-05.59.17:542][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.17-05.59.17:561][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.08.17-05.59.17:561][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.17-05.59.17:564][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.17-05.59.17:628][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.17-05.59.17:634][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.17-05.59.17:641][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.17-05.59.17:649][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.17-05.59.17:649][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.17-05.59.17:965][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.17-05.59.19:656][  0]LogDerivedDataCache: Loaded boot cache 1.69s 41MB C:/Users/Vishal/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.08.17-05.59.19:656][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Vishal/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.08.17-05.59.19:657][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.17-05.59.19:657][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.17-05.59.19:657][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.17-05.59.19:657][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.17-05.59.19:781][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.17-05.59.19:793][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Vishal/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.17-05.59.35:631][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.17-05.59.35:635][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.08.17-05.59.35:826][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.17-05.59.35:826][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.17-05.59.36:708][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.17-06.00.20:391][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.17-06.00.22:144][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2016.08.17-06.00.22:785][  0]SourceControl: Info Source control is disabled
+[2016.08.17-06.00.22:786][  0]SourceControl: Info Source control is disabled
+[2016.08.17-06.00.22:799][  0]SourceControl: Info Source control is disabled
+[2016.08.17-06.00.22:877][  0]SourceControl: Info Source control is disabled
+[2016.08.17-06.00.24:392][  0]LogObj: 28894 objects as part of root set at end of initial load.
+[2016.08.17-06.00.24:392][  0]LogUObjectAllocator: 6143824 out of 0 bytes used by permanent object pool.
+[2016.08.17-06.00.24:537][  0]LogEngine: Initializing Engine...
+[2016.08.17-06.00.24:541][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.08.17-06.00.24:544][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.17-06.00.24:863][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.17-06.00.24:917][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.17-06.00.24:938][  0]LogInit: FAudioDevice initialized.
+[2016.08.17-06.00.24:963][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Vishal/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.08.17-06.00.24:970][  0]LogInit: Texture streaming: Enabled
+[2016.08.17-06.00.24:979][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.08.17-06.00.24:979][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.08.17-06.00.24:979][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 42581dee49f10cab728e808031ad0d6c|b3aa724033af48eb807787bc6a36fc12|7d3f72a1-08fb-45f7-99a2-cbbddc55c18e
+[2016.08.17-06.00.24:979][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.08.17-06.00.24:992][  0]LogInit: Transaction tracking system initialized
+[2016.08.17-06.00.25:028][  0]BlueprintLog: New page: Editor Load
+[2016.08.17-06.00.25:516][  0]LocalizationService: Info Localization service is disabled
+[2016.08.17-06.00.26:024][  0]LogConsoleResponse:Display: 
+[2016.08.17-06.00.26:960][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.08.17-06.00.28:536][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Vishal/Documents/Unreal Projects/MyProject/Content/' took 0.02s
+[2016.08.17-06.00.28:547][  0]SourceControl: Info Source control is disabled
+[2016.08.17-06.00.28:547][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Architecture.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.17-06.00.28:552][  0]LightingResults: New page: Lighting Build
+[2016.08.17-06.00.28:555][  0]MapCheck: New page: Map Check
+[2016.08.17-06.00.28:555][  0]LightingResults: New page: Lighting Build
+[2016.08.17-06.00.28:578][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002586CD0DC60
+[2016.08.17-06.00.46:021][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2016.08.17-06.00.46:027][  0]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2016.08.17-06.00.46:317][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.08.17-06.00.49:024][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.08.17-06.00.50:410][  0]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2016.08.17-06.01.18:841][  0]LogAIModule: Creating AISystem for world Architecture
+[2016.08.17-06.01.18:852][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.Carpet2.StaticMeshComponent0)
+[2016.08.17-06.01.18:855][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.Carpet3.StaticMeshComponent0)
+[2016.08.17-06.01.18:856][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.Carpet.StaticMeshComponent0)
+[2016.08.17-06.01.18:858][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.TVImage.StaticMeshComponent0)
+[2016.08.17-06.01.18:870][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.17-06.01.18:871][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.17-06.01.18:957][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 85.517ms to complete.
+[2016.08.17-06.01.18:957][  0]LogFileHelpers: Loading map 'Architecture' took 50.410
+[2016.08.17-06.01.19:199][  0]LogCollectionManager: Loaded 0 collections in 0.001717 seconds
+[2016.08.17-06.01.19:238][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Collections/' took 0.01s
+[2016.08.17-06.01.19:238][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Vishal/Documents/Unreal Projects/MyProject/Content/Developers/Vishal/Collections/' took 0.01s
+[2016.08.17-06.01.19:238][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Vishal/Documents/Unreal Projects/MyProject/Content/Collections/' took 0.01s
+[2016.08.17-06.01.19:238][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.08.17-06.01.19:247][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 1898 classes and 345 folders.
+[2016.08.17-06.01.19:252][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.08.17-06.01.21:007][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.08.17-06.01.21:084][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.08.17-06.01.21:154][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.17-06.01.21:160][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.08.17-06.01.21:184][  0]LogLoad: Full Startup: 127.50 seconds (BP compile: 0.31 seconds)
+[2016.08.17-06.01.21:528][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.08.17-06.01.21:653][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.08.17-06.01.21:814][  0]LogRenderer: Reallocating scene render targets to support 808x368 (Frame:2).
+[2016.08.17-06.01.23:611][  6]LogAssetRegistry: Asset discovery search completed in 61.4788 seconds
+[2016.08.17-06.01.23:611][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.08.17-06.01.23:611][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000028 seconds (updated 0 objects)
+[2016.08.17-06.04.35:055][646]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.17-06.04.35:559][646]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 107 classes and 0 folders.
+[2016.08.17-06.16.34:992][ 82]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.08.17-06.16.35:494][ 83]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.08.17-06.54.20:529][373]LogEditorTransaction: Undo Add Node
+[2016.08.17-06.55.49:530][273]BlueprintLog: New page: Compile Architecture
+[2016.08.17-06.55.51:280][273]BlueprintEditorCompileResults: Info [3397.54] Compile of Architecture successful! [in 1,695 ms]
+[2016.08.17-06.55.58:238][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture" FILE="../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Architecture.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.08.17-06.56.01:463][383]LogSavePackage: Save=2088.489990ms
+[2016.08.17-06.56.01:463][383]LogSavePackage: Moving '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Architecture2CBC34A3407A23455D42898E530B4BE2.tmp' to '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Architecture.umap'
+[2016.08.17-06.56.01:489][383]LogSavePackage: Total save time: 3156.385574ms
+[2016.08.17-06.56.01:489][383]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Architecture.umap
+[2016.08.17-06.56.01:725][383]LogFileHelpers: Saving map 'Architecture' took 8.286
+[2016.08.17-06.58.19:876][638]BlueprintLog: New page: Compile ExportButtonBlueprint
+[2016.08.17-06.58.20:038][638]BlueprintEditorCompileResults: Info [3546.36] Compile of ExportButtonBlueprint successful! [in 162 ms]
+[2016.08.17-06.58.22:069][754]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-06.58.22:069][754]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.17-06.58.22:582][754]PIE: New page: PIE session: Architecture (17-Aug-2016 5:58:22 pm)
+[2016.08.17-06.58.22:582][754]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Architecture
+[2016.08.17-06.58.22:960][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.378348s)
+[2016.08.17-06.58.22:962][754]LogAIModule: Creating AISystem for world Architecture
+[2016.08.17-06.58.22:962][754]LogPlayLevel: PIE: World Init took: (0.001216s)
+[2016.08.17-06.58.22:962][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Architecture.Architecture to /Game/UEDPIE_0_Architecture.Architecture (0.379955s)
+[2016.08.17-06.58.23:012][754]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.17-06.58.23:022][754]LogInit: FAudioDevice initialized.
+[2016.08.17-06.58.24:151][754]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.08.17-06.58.24:162][754]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet2.StaticMeshComponent0)
+[2016.08.17-06.58.24:172][754]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet3.StaticMeshComponent0)
+[2016.08.17-06.58.24:174][754]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet.StaticMeshComponent0)
+[2016.08.17-06.58.24:179][754]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.TVImage.StaticMeshComponent0)
+[2016.08.17-06.58.24:184][754]LogWorld: Bringing World /Game/UEDPIE_0_Architecture.Architecture up for play (max tick rate 60) at 2016.08.17-12.28.24
+[2016.08.17-06.58.24:184][754]LogActor:Warning: GameSession /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.17-06.58.24:185][754]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.17-06.58.24:186][754]LogWorld: Bringing up level for play took: 0.034507
+[2016.08.17-06.58.25:931][754]PIE: Info Play in editor start time for /Game/UEDPIE_0_Architecture 3.178
+[2016.08.17-06.58.25:931][754]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-06.58.31:590][815]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] Hello
+[2016.08.17-06.58.31:590][815]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] Hello
+[2016.08.17-06.58.31:590][815]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] Hello
+[2016.08.17-06.58.31:590][815]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] Hello
+[2016.08.17-06.58.35:803][935]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-06.58.36:148][935]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-06.58.36:220][936]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025871FFFE20
+[2016.08.17-06.58.46:263][464]BlueprintLog: New page: Compile ExportButtonBlueprint
+[2016.08.17-06.58.46:378][464]BlueprintEditorCompileResults: Info [3572.70] Compile of ExportButtonBlueprint successful! [in 114 ms]
+[2016.08.17-06.58.47:932][555]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-06.58.47:932][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.17-06.58.47:932][555]PIE: New page: PIE session: Architecture (17-Aug-2016 5:58:47 pm)
+[2016.08.17-06.58.47:932][555]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Architecture
+[2016.08.17-06.58.47:975][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042493s)
+[2016.08.17-06.58.47:975][555]LogAIModule: Creating AISystem for world Architecture
+[2016.08.17-06.58.47:976][555]LogPlayLevel: PIE: World Init took: (0.000984s)
+[2016.08.17-06.58.47:976][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Architecture.Architecture to /Game/UEDPIE_0_Architecture.Architecture (0.043763s)
+[2016.08.17-06.58.48:025][555]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.17-06.58.48:033][555]LogInit: FAudioDevice initialized.
+[2016.08.17-06.58.48:066][555]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.08.17-06.58.48:076][555]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet2.StaticMeshComponent0)
+[2016.08.17-06.58.48:085][555]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet3.StaticMeshComponent0)
+[2016.08.17-06.58.48:087][555]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet.StaticMeshComponent0)
+[2016.08.17-06.58.48:089][555]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.TVImage.StaticMeshComponent0)
+[2016.08.17-06.58.48:094][555]LogWorld: Bringing World /Game/UEDPIE_0_Architecture.Architecture up for play (max tick rate 60) at 2016.08.17-12.28.48
+[2016.08.17-06.58.48:094][555]LogActor:Warning: GameSession /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.17-06.58.48:095][555]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.17-06.58.48:096][555]LogWorld: Bringing up level for play took: 0.029206
+[2016.08.17-06.58.48:098][555]PIE: Info Play in editor start time for /Game/UEDPIE_0_Architecture -0.654
+[2016.08.17-06.58.48:099][555]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-06.58.49:104][577]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.08.17-06.58.49:136][577]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] 
+[2016.08.17-06.58.49:136][577]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.08.17-06.58.49:136][577]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] 
+[2016.08.17-06.58.49:136][577]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.08.17-06.58.49:136][577]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] 
+[2016.08.17-06.58.49:136][577]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.08.17-06.58.49:136][577]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] 
+[2016.08.17-06.58.50:742][625]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.08.17-06.58.50:742][625]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] 
+[2016.08.17-06.58.50:742][625]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.08.17-06.58.50:742][625]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] 
+[2016.08.17-06.58.50:743][625]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.08.17-06.58.50:743][625]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] 
+[2016.08.17-06.58.50:743][625]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.08.17-06.58.50:743][625]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] 
+[2016.08.17-06.58.51:336][642]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-06.58.51:402][642]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-06.58.51:451][642]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025848EA6840
+[2016.08.17-06.59.14:127][926]BlueprintLog: New page: Compile ExportButtonBlueprint
+[2016.08.17-06.59.14:239][926]BlueprintEditorCompileResults: Info [3600.56] Compile of ExportButtonBlueprint successful! [in 111 ms]
+[2016.08.17-06.59.16:351][ 50]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-06.59.16:351][ 50]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.17-06.59.16:351][ 50]PIE: New page: PIE session: Architecture (17-Aug-2016 5:59:16 pm)
+[2016.08.17-06.59.16:351][ 50]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Architecture
+[2016.08.17-06.59.16:393][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041467s)
+[2016.08.17-06.59.16:394][ 50]LogAIModule: Creating AISystem for world Architecture
+[2016.08.17-06.59.16:394][ 50]LogPlayLevel: PIE: World Init took: (0.000984s)
+[2016.08.17-06.59.16:394][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Architecture.Architecture to /Game/UEDPIE_0_Architecture.Architecture (0.042867s)
+[2016.08.17-06.59.16:447][ 50]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.17-06.59.16:455][ 50]LogInit: FAudioDevice initialized.
+[2016.08.17-06.59.16:491][ 50]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.08.17-06.59.16:505][ 50]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet2.StaticMeshComponent0)
+[2016.08.17-06.59.16:515][ 50]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet3.StaticMeshComponent0)
+[2016.08.17-06.59.16:518][ 50]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet.StaticMeshComponent0)
+[2016.08.17-06.59.16:522][ 50]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.TVImage.StaticMeshComponent0)
+[2016.08.17-06.59.16:528][ 50]LogWorld: Bringing World /Game/UEDPIE_0_Architecture.Architecture up for play (max tick rate 60) at 2016.08.17-12.29.16
+[2016.08.17-06.59.16:528][ 50]LogActor:Warning: GameSession /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.17-06.59.16:528][ 50]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.17-06.59.16:529][ 50]LogWorld: Bringing up level for play took: 0.036675
+[2016.08.17-06.59.16:533][ 50]PIE: Info Play in editor start time for /Game/UEDPIE_0_Architecture -0.219
+[2016.08.17-06.59.16:533][ 50]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-06.59.20:094][150]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-06.59.20:134][150]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-06.59.20:182][150]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002584860ACA0
+[2016.08.17-07.01.09:248][646]BlueprintLog: New page: Compile ExportButtonBlueprint
+[2016.08.17-07.01.09:387][646]BlueprintEditorCompileResults: Info [3715.71] Compile of ExportButtonBlueprint successful! [in 138 ms]
+[2016.08.17-07.01.11:591][773]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-07.01.11:591][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.17-07.01.11:591][773]PIE: New page: PIE session: Architecture (17-Aug-2016 6:01:11 pm)
+[2016.08.17-07.01.11:591][773]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Architecture
+[2016.08.17-07.01.11:650][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058743s)
+[2016.08.17-07.01.11:651][773]LogAIModule: Creating AISystem for world Architecture
+[2016.08.17-07.01.11:651][773]LogPlayLevel: PIE: World Init took: (0.001083s)
+[2016.08.17-07.01.11:651][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Architecture.Architecture to /Game/UEDPIE_0_Architecture.Architecture (0.060309s)
+[2016.08.17-07.01.11:724][773]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.17-07.01.11:736][773]LogInit: FAudioDevice initialized.
+[2016.08.17-07.01.11:777][773]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.08.17-07.01.11:789][773]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet2.StaticMeshComponent0)
+[2016.08.17-07.01.11:800][773]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet3.StaticMeshComponent0)
+[2016.08.17-07.01.11:802][773]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet.StaticMeshComponent0)
+[2016.08.17-07.01.11:806][773]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.TVImage.StaticMeshComponent0)
+[2016.08.17-07.01.11:810][773]LogWorld: Bringing World /Game/UEDPIE_0_Architecture.Architecture up for play (max tick rate 60) at 2016.08.17-12.31.11
+[2016.08.17-07.01.11:810][773]LogActor:Warning: GameSession /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.17-07.01.11:810][773]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.17-07.01.11:811][773]LogWorld: Bringing up level for play took: 0.034594
+[2016.08.17-07.01.11:815][773]PIE: Info Play in editor start time for /Game/UEDPIE_0_Architecture 1.063
+[2016.08.17-07.01.11:815][773]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-07.01.15:854][878]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-07.01.15:928][878]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-07.01.15:987][878]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025848E13A60
+[2016.08.17-07.01.30:429][659]LogEditorTransaction: Undo Create Pin Link
+[2016.08.17-07.01.30:931][673]LogEditorTransaction: Undo Move Node
+[2016.08.17-07.01.31:525][705]LogEditorTransaction: Undo Create Pin Link
+[2016.08.17-07.01.32:345][751]LogEditorTransaction: Undo Break Pin Links
+[2016.08.17-07.01.33:345][807]LogEditorTransaction: Undo Break Pin Links
+[2016.08.17-07.01.34:166][853]LogEditorTransaction: Undo Create Pin Link
+[2016.08.17-07.03.47:021][512]BlueprintLog: New page: Compile ExportButtonBlueprint
+[2016.08.17-07.03.47:173][512]BlueprintEditorCompileResults: Info [3873.49] Compile of ExportButtonBlueprint successful! [in 151 ms]
+[2016.08.17-07.06.55:190][516]LogSavePackage: Save=1545.588623ms
+[2016.08.17-07.06.55:190][516]LogSavePackage: Moving '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Architecture_Auto184EFFEE04DFF2BCD6FD8C68C5C802D2A.tmp' to '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Architecture_Auto1.umap'
+[2016.08.17-07.06.55:194][516]LogSavePackage: Total save time: 1913.178127ms
+[2016.08.17-07.06.55:194][516]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Architecture_Auto1.umap
+[2016.08.17-07.06.55:196][516]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Architecture' took 1.987
+[2016.08.17-07.06.55:196][516]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.987
+[2016.08.17-07.06.55:203][516]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/ExportButtonBlueprint] ([1] browsable assets)...
+[2016.08.17-07.06.55:203][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/ExportButtonBlueprint]
+[2016.08.17-07.06.55:252][516]LogSavePackage: Save=36.190655ms
+[2016.08.17-07.06.55:252][516]LogSavePackage: Moving '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/ExportButtonBlueprint_Auto1D7B14CAB43863573F5E79AABC1152F66.tmp' to '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/ExportButtonBlueprint_Auto1.uasset'
+[2016.08.17-07.06.55:273][516]LogSavePackage: Total save time: 67.382447ms
+[2016.08.17-07.06.55:273][516]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/ExportButtonBlueprint_Auto1.uasset
+[2016.08.17-07.06.55:273][516]LogFileHelpers: Auto-saving content packages took 0.074
+[2016.08.17-07.08.29:414][630]LogEditorViewport: Clicking on Actor (LMB): BeanBag4_Blueprint_C (BeanBag4_Blueprint)
+[2016.08.17-07.08.45:703][438]LogEditorViewport: Clicking on Actor (context menu): BeanBag_Blueprint_C (BeanBag_Blueprint)
+[2016.08.17-07.22.18:354][248]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-07.22.18:355][248]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.08.17-07.22.18:362][248]LogPlayLevel: [PlayLevel] Compiling ExportButtonBlueprint before play...
+[2016.08.17-07.22.18:446][248]LogPlayLevel: PlayLevel: Blueprint regeneration took 91 ms (2 blueprints)
+[2016.08.17-07.22.18:449][248]LogPlayLevel: [PlayLevel] Compiling Architecture before play...
+[2016.08.17-07.22.18:530][248]LogPlayLevel: PlayLevel: Blueprint regeneration took 175 ms (2 blueprints)
+[2016.08.17-07.22.18:584][248]PIE: New page: PIE session: Architecture (17-Aug-2016 6:22:18 pm)
+[2016.08.17-07.22.18:585][248]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Architecture
+[2016.08.17-07.22.18:620][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036177s)
+[2016.08.17-07.22.18:622][248]LogAIModule: Creating AISystem for world Architecture
+[2016.08.17-07.22.18:622][248]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2016.08.17-07.22.18:622][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Architecture.Architecture to /Game/UEDPIE_0_Architecture.Architecture (0.037488s)
+[2016.08.17-07.22.18:677][248]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.17-07.22.18:685][248]LogInit: FAudioDevice initialized.
+[2016.08.17-07.22.18:718][248]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.08.17-07.22.18:727][248]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet2.StaticMeshComponent0)
+[2016.08.17-07.22.18:735][248]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet3.StaticMeshComponent0)
+[2016.08.17-07.22.18:737][248]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet.StaticMeshComponent0)
+[2016.08.17-07.22.18:740][248]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.TVImage.StaticMeshComponent0)
+[2016.08.17-07.22.18:744][248]LogWorld: Bringing World /Game/UEDPIE_0_Architecture.Architecture up for play (max tick rate 60) at 2016.08.17-12.52.18
+[2016.08.17-07.22.18:745][248]LogActor:Warning: GameSession /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.17-07.22.18:745][248]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.17-07.22.18:746][248]LogWorld: Bringing up level for play took: 0.027340
+[2016.08.17-07.22.18:749][248]PIE: Info Play in editor start time for /Game/UEDPIE_0_Architecture -0.003
+[2016.08.17-07.22.18:749][248]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-07.22.19:717][272]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] Hello
+[2016.08.17-07.22.19:717][272]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] Hello
+[2016.08.17-07.22.19:718][272]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] Hello
+[2016.08.17-07.22.19:718][272]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] Hello
+[2016.08.17-07.22.20:944][307]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-07.22.20:999][307]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-07.22.21:073][308]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002585E51ACA0
+[2016.08.17-07.22.32:219][899]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-07.22.32:220][899]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.08.17-07.22.32:225][899]LogPlayLevel: [PlayLevel] Compiling ExportButtonBlueprint before play...
+[2016.08.17-07.22.32:288][899]LogPlayLevel: PlayLevel: Blueprint regeneration took 68 ms (2 blueprints)
+[2016.08.17-07.22.32:290][899]LogPlayLevel: [PlayLevel] Compiling Architecture before play...
+[2016.08.17-07.22.32:370][899]LogPlayLevel: PlayLevel: Blueprint regeneration took 150 ms (2 blueprints)
+[2016.08.17-07.22.32:419][899]PIE: New page: PIE session: Architecture (17-Aug-2016 6:22:32 pm)
+[2016.08.17-07.22.32:419][899]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Architecture
+[2016.08.17-07.22.32:454][899]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035307s)
+[2016.08.17-07.22.32:455][899]LogAIModule: Creating AISystem for world Architecture
+[2016.08.17-07.22.32:455][899]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2016.08.17-07.22.32:455][899]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Architecture.Architecture to /Game/UEDPIE_0_Architecture.Architecture (0.036454s)
+[2016.08.17-07.22.32:504][899]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.17-07.22.32:511][899]LogInit: FAudioDevice initialized.
+[2016.08.17-07.22.32:552][899]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.08.17-07.22.32:561][899]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet2.StaticMeshComponent0)
+[2016.08.17-07.22.32:569][899]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet3.StaticMeshComponent0)
+[2016.08.17-07.22.32:572][899]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet.StaticMeshComponent0)
+[2016.08.17-07.22.32:574][899]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.TVImage.StaticMeshComponent0)
+[2016.08.17-07.22.32:579][899]LogWorld: Bringing World /Game/UEDPIE_0_Architecture.Architecture up for play (max tick rate 60) at 2016.08.17-12.52.32
+[2016.08.17-07.22.32:579][899]LogActor:Warning: GameSession /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.17-07.22.32:580][899]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.17-07.22.32:580][899]LogWorld: Bringing up level for play took: 0.027762
+[2016.08.17-07.22.32:583][899]PIE: Info Play in editor start time for /Game/UEDPIE_0_Architecture -0.169
+[2016.08.17-07.22.32:583][899]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-07.22.33:287][917]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] Hello
+[2016.08.17-07.22.33:287][917]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] Hello
+[2016.08.17-07.22.33:287][917]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] Hello
+[2016.08.17-07.22.33:287][917]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] Hello
+[2016.08.17-07.22.36:202][  0]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-07.22.36:281][  0]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-07.22.36:360][  1]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025871F1A340
+[2016.08.17-07.23.00:490][220]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-07.23.00:490][220]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.08.17-07.23.00:495][220]LogPlayLevel: [PlayLevel] Compiling ExportButtonBlueprint before play...
+[2016.08.17-07.23.00:565][220]LogPlayLevel: PlayLevel: Blueprint regeneration took 75 ms (2 blueprints)
+[2016.08.17-07.23.00:568][220]LogPlayLevel: [PlayLevel] Compiling Architecture before play...
+[2016.08.17-07.23.00:646][220]LogPlayLevel: PlayLevel: Blueprint regeneration took 156 ms (2 blueprints)
+[2016.08.17-07.23.00:699][220]PIE: New page: PIE session: Architecture (17-Aug-2016 6:23:00 pm)
+[2016.08.17-07.23.00:699][220]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Architecture
+[2016.08.17-07.23.00:735][220]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036239s)
+[2016.08.17-07.23.00:736][220]LogAIModule: Creating AISystem for world Architecture
+[2016.08.17-07.23.00:736][220]LogPlayLevel: PIE: World Init took: (0.000917s)
+[2016.08.17-07.23.00:736][220]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Architecture.Architecture to /Game/UEDPIE_0_Architecture.Architecture (0.037461s)
+[2016.08.17-07.23.00:787][220]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.17-07.23.00:795][220]LogInit: FAudioDevice initialized.
+[2016.08.17-07.23.00:834][220]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.08.17-07.23.00:844][220]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet2.StaticMeshComponent0)
+[2016.08.17-07.23.00:852][220]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet3.StaticMeshComponent0)
+[2016.08.17-07.23.00:854][220]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet.StaticMeshComponent0)
+[2016.08.17-07.23.00:857][220]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.TVImage.StaticMeshComponent0)
+[2016.08.17-07.23.00:862][220]LogWorld: Bringing World /Game/UEDPIE_0_Architecture.Architecture up for play (max tick rate 60) at 2016.08.17-12.53.00
+[2016.08.17-07.23.00:862][220]LogActor:Warning: GameSession /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.17-07.23.00:863][220]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.17-07.23.00:863][220]LogWorld: Bringing up level for play took: 0.028875
+[2016.08.17-07.23.00:866][220]PIE: Info Play in editor start time for /Game/UEDPIE_0_Architecture 0.114
+[2016.08.17-07.23.00:866][220]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-07.23.01:988][247]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.08.17-07.23.01:988][247]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] 
+[2016.08.17-07.23.01:988][247]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.08.17-07.23.01:988][247]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] 
+[2016.08.17-07.23.01:988][247]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.08.17-07.23.01:989][247]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] 
+[2016.08.17-07.23.01:989][247]LogScript:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [0/0]!
+[2016.08.17-07.23.01:989][247]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] 
+[2016.08.17-07.23.03:528][287]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-07.23.03:582][287]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-07.23.03:657][288]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000258838F23E0
+[2016.08.17-07.23.06:324][388]LogEditorTransaction: Undo Create Pin Link
+[2016.08.17-07.23.40:746][963]LogSavePackage: Save=1605.807007ms
+[2016.08.17-07.23.40:746][963]LogSavePackage: Moving '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Architecture_Auto25A46C18940E208A4F3771088CBBDC2F9.tmp' to '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Architecture_Auto2.umap'
+[2016.08.17-07.23.40:749][963]LogSavePackage: Total save time: 1632.705908ms
+[2016.08.17-07.23.40:749][963]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Architecture_Auto2.umap
+[2016.08.17-07.23.40:753][963]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Architecture' took 1.698
+[2016.08.17-07.23.40:753][963]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.698
+[2016.08.17-07.23.40:761][963]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/ExportButtonBlueprint] ([1] browsable assets)...
+[2016.08.17-07.23.40:762][963]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/ExportButtonBlueprint]
+[2016.08.17-07.23.40:875][963]LogSavePackage: Save=37.258080ms
+[2016.08.17-07.23.40:875][963]LogSavePackage: Moving '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/ExportButtonBlueprint_Auto22950329B407EFAC9372E05BB574DA193.tmp' to '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/ExportButtonBlueprint_Auto2.uasset'
+[2016.08.17-07.23.40:878][963]LogSavePackage: Total save time: 112.910382ms
+[2016.08.17-07.23.40:878][963]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/ExportButtonBlueprint_Auto2.uasset
+[2016.08.17-07.23.40:878][963]LogFileHelpers: Auto-saving content packages took 0.123
+[2016.08.17-08.30.18:981][118]LogEditorViewport: Clicking on Actor (LMB): BeanBag2_Blueprint_C (BeanBag2_Blueprint)
+[2016.08.17-08.30.19:069][118]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.08.17-08.30.20:635][204]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.08.17-08.30.20:736][207]LogEditorViewport: Clicking on Actor (double click): BeanBag2_Blueprint_C (BeanBag2_Blueprint)
+[2016.08.17-08.31.45:440][ 79]LogEditorViewport: Clicking on Actor (LMB): BeanBag2_Blueprint_C (BeanBag2_Blueprint)
+[2016.08.17-08.32.28:489][ 70]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025837374180
+[2016.08.17-08.32.45:944][555]Cmd: TRANSACTION UNDO
+[2016.08.17-08.32.45:944][555]LogEditorTransaction: Undo Create Actors
+[2016.08.17-08.33.34:060][311]BlueprintLog: New page: Compile ExportButtonBlueprint
+[2016.08.17-08.33.34:212][311]BlueprintEditorCompileResults: Info [9260.53] Compile of ExportButtonBlueprint successful! [in 152 ms]
+[2016.08.17-08.33.36:877][461]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-08.33.36:877][461]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.08.17-08.33.36:880][461]LogPlayLevel: [PlayLevel] Compiling Architecture before play...
+[2016.08.17-08.33.37:002][461]LogPlayLevel: PlayLevel: Blueprint regeneration took 125 ms (1 blueprints)
+[2016.08.17-08.33.37:062][461]PIE: New page: PIE session: Architecture (17-Aug-2016 7:33:37 pm)
+[2016.08.17-08.33.37:062][461]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Architecture
+[2016.08.17-08.33.37:109][461]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046125s)
+[2016.08.17-08.33.37:110][461]LogAIModule: Creating AISystem for world Architecture
+[2016.08.17-08.33.37:110][461]LogPlayLevel: PIE: World Init took: (0.001249s)
+[2016.08.17-08.33.37:110][461]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Architecture.Architecture to /Game/UEDPIE_0_Architecture.Architecture (0.047775s)
+[2016.08.17-08.33.37:170][461]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.17-08.33.37:182][461]LogInit: FAudioDevice initialized.
+[2016.08.17-08.33.37:231][461]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.08.17-08.33.37:242][461]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet2.StaticMeshComponent0)
+[2016.08.17-08.33.37:254][461]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet3.StaticMeshComponent0)
+[2016.08.17-08.33.37:257][461]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet.StaticMeshComponent0)
+[2016.08.17-08.33.37:261][461]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.TVImage.StaticMeshComponent0)
+[2016.08.17-08.33.37:268][461]LogWorld: Bringing World /Game/UEDPIE_0_Architecture.Architecture up for play (max tick rate 60) at 2016.08.17-14.03.37
+[2016.08.17-08.33.37:268][461]LogActor:Warning: GameSession /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.17-08.33.37:268][461]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.17-08.33.37:269][461]LogWorld: Bringing up level for play took: 0.037327
+[2016.08.17-08.33.37:272][461]PIE: Info Play in editor start time for /Game/UEDPIE_0_Architecture 0.52
+[2016.08.17-08.33.37:273][461]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-08.33.39:224][510]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] BeanBag2_Blueprint
+[2016.08.17-08.33.41:155][561]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] BeanBag2_Blueprint
+[2016.08.17-08.33.42:265][590]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-08.33.42:310][590]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.17-08.33.42:384][591]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002588ADABC40
+[2016.08.17-08.35.25:407][472]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.08.17-08.37.14:450][444]LogSavePackage: Save=1693.686523ms
+[2016.08.17-08.37.14:450][444]LogSavePackage: Moving '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Architecture_Auto313CC59F4439407995C39A582A1682B8B.tmp' to '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Architecture_Auto3.umap'
+[2016.08.17-08.37.14:452][444]LogSavePackage: Total save time: 2369.201798ms
+[2016.08.17-08.37.14:452][444]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Architecture_Auto3.umap
+[2016.08.17-08.37.14:454][444]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Architecture' took 2.519
+[2016.08.17-08.37.14:454][444]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.519
+[2016.08.17-08.37.14:489][444]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/ExportButtonBlueprint] ([1] browsable assets)...
+[2016.08.17-08.37.14:489][444]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/ExportButtonBlueprint]
+[2016.08.17-08.37.14:560][444]LogSavePackage: Save=39.039497ms
+[2016.08.17-08.37.14:560][444]LogSavePackage: Moving '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/ExportButtonBlueprint_Auto39828DC3544C6B063F49775A40513B85A.tmp' to '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/ExportButtonBlueprint_Auto3.uasset'
+[2016.08.17-08.37.14:582][444]LogSavePackage: Total save time: 91.379840ms
+[2016.08.17-08.37.14:582][444]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/ExportButtonBlueprint_Auto3.uasset
+[2016.08.17-08.37.14:582][444]LogFileHelpers: Auto-saving content packages took 0.126
+[2016.08.17-08.37.47:280][390]LogEditorTransaction: Undo Delete current selection
+[2016.08.17-08.37.47:497][397]LogEditorTransaction: Undo Add Node
+[2016.08.17-08.37.47:710][401]LogEditorTransaction: Undo Move Node
+[2016.08.17-08.37.47:844][404]LogEditorTransaction: Undo Move Node
+[2016.08.17-08.37.48:031][413]LogEditorTransaction: Undo Change Class Pin Value
+[2016.08.17-08.37.48:212][421]LogEditorTransaction: Undo Change Class Pin Value
+[2016.08.17-08.37.48:400][430]LogEditorTransaction: Undo Move Node
+[2016.08.17-08.37.48:588][439]LogEditorTransaction: Undo Move Node
+[2016.08.17-08.37.48:761][447]LogEditorTransaction: Undo Paste clipboard contents
+[2016.08.17-08.37.48:958][456]LogEditorTransaction: Undo Paste clipboard contents
+[2016.08.17-08.37.49:130][464]LogEditorTransaction: Undo Move Node
+[2016.08.17-08.37.49:318][473]LogEditorTransaction: Undo Move Node
+[2016.08.17-08.37.49:502][482]LogEditorTransaction: Undo Move Node
+[2016.08.17-08.37.49:671][490]LogEditorTransaction: Undo Break Pin Links
+[2016.08.17-08.37.49:855][499]LogEditorTransaction: Undo Change Class Pin Value
+[2016.08.17-08.37.50:047][508]LogEditorTransaction: Undo Move Node
+[2016.08.17-08.37.50:233][517]LogEditorTransaction: Undo Add Node
+[2016.08.17-08.37.50:415][526]LogEditorTransaction: Undo Move Node
+[2016.08.17-08.37.50:599][535]LogEditorTransaction: Undo Move Node
+[2016.08.17-08.37.50:813][546]LogEditorTransaction: Undo Break Pin Links
+[2016.08.17-08.37.50:985][554]LogEditorTransaction: Undo Break Pin Links
+[2016.08.17-08.37.51:175][563]LogEditorTransaction: Undo Move Node
+[2016.08.17-08.37.51:379][573]LogEditorTransaction: Undo Move Node
+[2016.08.17-08.37.51:563][582]LogEditorTransaction: Undo Move Node
+[2016.08.17-08.37.51:818][595]LogEditorTransaction: Undo Delete current selection
+[2016.08.17-08.37.52:124][611]LogEditorTransaction: Undo Move Node
+[2016.08.17-08.37.52:485][630]LogEditorTransaction: Undo Move Node
+[2016.08.17-08.37.53:169][669]LogEditorTransaction: Undo Create Pin Link
+[2016.08.17-08.37.53:782][705]LogEditorTransaction: Undo Break Pin Links
+[2016.08.17-08.37.54:204][728]LogEditorTransaction: Undo Break Pin Links
+[2016.08.17-08.37.54:522][745]LogEditorTransaction: Undo Break Pin Links
+[2016.08.17-08.37.54:847][762]LogEditorTransaction: Undo Break Pin Links
+[2016.08.17-08.37.55:167][779]LogEditorTransaction: Undo Create Pin Link
+[2016.08.17-08.37.55:787][814]LogEditorTransaction: Undo Create Pin Link
+[2016.08.17-08.37.56:277][841]LogEditorTransaction: Undo Move Node
+[2016.08.17-08.37.56:763][868]LogEditorTransaction: Undo Change Class Pin Value
+[2016.08.17-08.37.57:151][889]LogEditorTransaction: Undo Break Pin Links
+[2016.08.17-08.37.57:455][905]LogEditorTransaction: Undo Break Pin Links
+[2016.08.17-08.37.57:963][933]LogEditorTransaction: Undo Clicking on Actors
+[2016.08.17-08.37.58:444][957]LogEditorTransaction: Undo Clicking on Actors
+[2016.08.17-08.38.00:065][ 51]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2016.08.17-08.38.00:469][ 71]LogEditorTransaction: Undo Clicking on Actors (double-click)
+[2016.08.17-08.38.00:830][ 90]LogEditorTransaction: Undo Clicking on Components
+[2016.08.17-08.38.01:155][109]LogEditorTransaction: Undo Clicking on Components
+[2016.08.17-08.38.01:561][131]LogEditorTransaction: Undo Clicking on Actors
+[2016.08.17-08.38.01:870][146]LogEditorTransaction: Undo Move Node
+[2016.08.17-08.38.02:111][158]LogEditorTransaction: Undo Delete current selection
+[2016.08.17-08.38.02:586][184]LogEditorTransaction: Undo Delete current selection
+[2016.08.17-08.43.31:194][ 93]LogEditorTransaction: Undo Create Pin Link
+[2016.08.17-08.47.15:919][114]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Architecture' took 0.073
+[2016.08.17-08.47.15:925][114]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/ExportButtonBlueprint] ([1] browsable assets)...
+[2016.08.17-08.47.15:925][114]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/ExportButtonBlueprint]
+[2016.08.17-08.47.16:006][114]LogSavePackage: Save=38.145218ms
+[2016.08.17-08.47.16:006][114]LogSavePackage: Moving '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/ExportButtonBlueprint_Auto465EE7F944D78263AEDC98F8A9D494E38.tmp' to '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/ExportButtonBlueprint_Auto4.uasset'
+[2016.08.17-08.47.16:029][114]LogSavePackage: Total save time: 101.519473ms
+[2016.08.17-08.47.16:029][114]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/ExportButtonBlueprint_Auto4.uasset
+[2016.08.17-08.47.16:029][114]LogFileHelpers: Auto-saving content packages took 0.109
+[2016.08.17-08.57.16:333][569]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Architecture' took 0.051
+[2016.08.17-08.57.16:339][569]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/ExportButtonBlueprint] ([1] browsable assets)...
+[2016.08.17-08.57.16:339][569]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/ExportButtonBlueprint]
+[2016.08.17-08.57.16:389][569]LogSavePackage: Save=35.671669ms
+[2016.08.17-08.57.16:389][569]LogSavePackage: Moving '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/ExportButtonBlueprint_Auto5F4614A45478AEEA5502BEC8C9631DF66.tmp' to '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/ExportButtonBlueprint_Auto5.uasset'
+[2016.08.17-08.57.16:408][569]LogSavePackage: Total save time: 67.894738ms
+[2016.08.17-08.57.16:408][569]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/ExportButtonBlueprint_Auto5.uasset
+[2016.08.17-08.57.16:408][569]LogFileHelpers: Auto-saving content packages took 0.075
+[2016.08.17-08.57.19:931][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture" FILE="../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Architecture.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.08.17-08.57.21:516][625]LogSavePackage: Save=1519.326538ms
+[2016.08.17-08.57.21:517][625]LogSavePackage: Moving '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Architecture168DE33F453DDCB31ADB68B6AED7288F.tmp' to '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Architecture.umap'
+[2016.08.17-08.57.21:525][625]LogSavePackage: Total save time: 1547.094263ms
+[2016.08.17-08.57.21:525][625]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Architecture.umap
+[2016.08.17-08.57.21:565][625]LogFileHelpers: Saving map 'Architecture' took 1.751
+[2016.08.17-08.57.21:572][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ExportButtonBlueprint" FILE="../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Blueprints/ExportButtonBlueprint.uasset" SILENT=true
+[2016.08.17-08.57.21:614][625]LogSavePackage: Save=34.018768ms
+[2016.08.17-08.57.21:614][625]LogSavePackage: Moving '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/ExportButtonBlueprintE43752EA48E47A7196F041A0C3517CAF.tmp' to '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Blueprints/ExportButtonBlueprint.uasset'
+[2016.08.17-08.57.21:619][625]LogSavePackage: Total save time: 44.921931ms
+[2016.08.17-08.57.21:619][625]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Blueprints/ExportButtonBlueprint.uasset
+[2016.08.17-08.57.24:055][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000258330F63E0
+[2016.08.17-08.57.24:061][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025839D534C0
+[2016.08.17-08.57.24:066][751]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025839D51DA0
+[2016.08.17-08.57.24:259][751]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.08.17-08.57.24:769][752]Cmd: QUIT_EDITOR
+[2016.08.17-08.57.26:501][752]LogExit: Preparing to exit.
+[2016.08.17-08.57.28:232][752]LogExit: Editor shut down
+[2016.08.17-08.57.28:234][752]LogExit: Transaction tracking system shut down
+[2016.08.17-08.57.28:565][752]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000258795AD4E0
+[2016.08.17-08.57.28:566][752]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000258159DB880
+[2016.08.17-08.57.28:568][752]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025818197060
+[2016.08.17-08.57.28:568][752]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002581E14E340
+[2016.08.17-08.57.28:568][752]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002581E14E160
+[2016.08.17-08.57.34:620][752]LogExit: Object subsystem successfully closed.
+[2016.08.17-08.57.34:889][752]LogD3D11RHI: Shutdown
+[2016.08.17-08.57.34:889][752]LogD3D11RHI: CleanupD3DDevice
+[2016.08.17-08.57.35:115][752]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.08.17-08.57.36:070][752]LogModuleManager: Shutting down and abandoning module CookingStats (203)
+[2016.08.17-08.57.36:070][752]LogModuleManager: Shutting down and abandoning module SequencerWidgets (202)
+[2016.08.17-08.57.36:070][752]LogModuleManager: Shutting down and abandoning module BlueprintGraph (201)
+[2016.08.17-08.57.36:070][752]LogModuleManager: Shutting down and abandoning module CrashTracker (200)
+[2016.08.17-08.57.36:070][752]LogModuleManager: Shutting down and abandoning module SceneOutliner (199)
+[2016.08.17-08.57.36:070][752]LogModuleManager: Shutting down and abandoning module SuperSearch (198)
+[2016.08.17-08.57.36:070][752]LogModuleManager: Shutting down and abandoning module WidgetCarousel (197)
+[2016.08.17-08.57.36:084][752]LogModuleManager: Shutting down and abandoning module AddContentDialog (196)
+[2016.08.17-08.57.36:100][752]LogModuleManager: Shutting down and abandoning module EditorWidgets (195)
+[2016.08.17-08.57.36:100][752]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2016.08.17-08.57.36:120][752]LogModuleManager: Shutting down and abandoning module StatsViewer (193)
+[2016.08.17-08.57.36:134][752]LogModuleManager: Shutting down and abandoning module FoliageEdit (192)
+[2016.08.17-08.57.36:147][752]LogModuleManager: Shutting down and abandoning module LandscapeEditor (191)
+[2016.08.17-08.57.36:171][752]LogModuleManager: Shutting down and abandoning module ActorPickerMode (190)
+[2016.08.17-08.57.36:171][752]LogModuleManager: Shutting down and abandoning module GeometryMode (189)
+[2016.08.17-08.57.36:171][752]LogModuleManager: Shutting down and abandoning module TextureAlignMode (188)
+[2016.08.17-08.57.36:171][752]LogModuleManager: Shutting down and abandoning module BspMode (187)
+[2016.08.17-08.57.36:171][752]LogModuleManager: Shutting down and abandoning module PlacementMode (186)
+[2016.08.17-08.57.36:171][752]LogModuleManager: Shutting down and abandoning module AutomationWorker (185)
+[2016.08.17-08.57.36:171][752]LogModuleManager: Shutting down and abandoning module CharacterAI (184)
+[2016.08.17-08.57.36:171][752]LogModuleManager: Shutting down and abandoning module SmartSnapping (183)
+[2016.08.17-08.57.36:171][752]LogModuleManager: Shutting down and abandoning module ViewportSnapping (182)
+[2016.08.17-08.57.36:171][752]LogModuleManager: Shutting down and abandoning module LogVisualizer (181)
+[2016.08.17-08.57.36:210][752]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (180)
+[2016.08.17-08.57.36:210][752]LogModuleManager: Shutting down and abandoning module IntroTutorials (179)
+[2016.08.17-08.57.36:253][752]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (178)
+[2016.08.17-08.57.36:253][752]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (177)
+[2016.08.17-08.57.36:262][752]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (176)
+[2016.08.17-08.57.36:262][752]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (175)
+[2016.08.17-08.57.37:032][752]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (174)
+[2016.08.17-08.57.37:032][752]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (173)
+[2016.08.17-08.57.37:032][752]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (172)
+[2016.08.17-08.57.37:032][752]LogModuleManager: Shutting down and abandoning module MergeActors (171)
+[2016.08.17-08.57.37:087][752]LogModuleManager: Shutting down and abandoning module SizeMap (170)
+[2016.08.17-08.57.37:087][752]LogModuleManager: Shutting down and abandoning module TreeMap (169)
+[2016.08.17-08.57.37:097][752]LogModuleManager: Shutting down and abandoning module ReferenceViewer (168)
+[2016.08.17-08.57.37:097][752]LogModuleManager: Shutting down and abandoning module LocalizationService (167)
+[2016.08.17-08.57.37:106][752]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (166)
+[2016.08.17-08.57.37:115][752]LogModuleManager: Shutting down and abandoning module HardwareTargeting (165)
+[2016.08.17-08.57.37:123][752]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (164)
+[2016.08.17-08.57.37:141][752]LogModuleManager: Shutting down and abandoning module UndoHistory (163)
+[2016.08.17-08.57.37:155][752]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (162)
+[2016.08.17-08.57.37:161][752]LogModuleManager: Shutting down and abandoning module UserFeedback (161)
+[2016.08.17-08.57.37:161][752]LogModuleManager: Shutting down and abandoning module XmlParser (160)
+[2016.08.17-08.57.37:170][752]LogModuleManager: Shutting down and abandoning module Blutility (159)
+[2016.08.17-08.57.37:170][752]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (158)
+[2016.08.17-08.57.37:186][752]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (157)
+[2016.08.17-08.57.37:190][752]LogModuleManager: Shutting down and abandoning module InputBindingEditor (156)
+[2016.08.17-08.57.37:222][752]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (155)
+[2016.08.17-08.57.37:222][752]LogModuleManager: Shutting down and abandoning module SettingsEditor (154)
+[2016.08.17-08.57.37:248][752]LogModuleManager: Shutting down and abandoning module ProjectLauncher (153)
+[2016.08.17-08.57.37:272][752]LogModuleManager: Shutting down and abandoning module SessionFrontend (152)
+[2016.08.17-08.57.37:284][752]LogModuleManager: Shutting down and abandoning module ProfilerClient (151)
+[2016.08.17-08.57.37:299][752]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (150)
+[2016.08.17-08.57.37:299][752]LogModuleManager: Shutting down and abandoning module DeviceManager (149)
+[2016.08.17-08.57.37:310][752]LogModuleManager: Shutting down and abandoning module AutomationController (148)
+[2016.08.17-08.57.37:332][752]LogModuleManager: Shutting down and abandoning module AutomationWindow (147)
+[2016.08.17-08.57.37:345][752]LogModuleManager: Shutting down and abandoning module Layers (146)
+[2016.08.17-08.57.37:386][752]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (145)
+[2016.08.17-08.57.37:386][752]LogModuleManager: Shutting down and abandoning module DetailCustomizations (144)
+[2016.08.17-08.57.37:386][752]LogModuleManager: Shutting down and abandoning module PackagesDialog (143)
+[2016.08.17-08.57.37:386][752]LogModuleManager: Shutting down and abandoning module Persona (142)
+[2016.08.17-08.57.37:451][752]LogModuleManager: Shutting down and abandoning module Kismet (141)
+[2016.08.17-08.57.37:452][752]LogModuleManager: Shutting down and abandoning module GraphEditor (140)
+[2016.08.17-08.57.37:452][752]LogModuleManager: Shutting down and abandoning module ClassViewer (139)
+[2016.08.17-08.57.37:455][752]LogModuleManager: Shutting down and abandoning module Toolbox (138)
+[2016.08.17-08.57.37:455][752]LogModuleManager: Shutting down and abandoning module ModuleUI (137)
+[2016.08.17-08.57.37:473][752]LogModuleManager: Shutting down and abandoning module MovieSceneTools (136)
+[2016.08.17-08.57.37:487][752]LogModuleManager: Shutting down and abandoning module OutputLog (135)
+[2016.08.17-08.57.37:487][752]LogModuleManager: Shutting down and abandoning module GammaUI (134)
+[2016.08.17-08.57.37:500][752]LogModuleManager: Shutting down and abandoning module Documentation (133)
+[2016.08.17-08.57.37:501][752]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (132)
+[2016.08.17-08.57.37:512][752]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (131)
+[2016.08.17-08.57.37:512][752]LogModuleManager: Shutting down and abandoning module AnalyticsET (130)
+[2016.08.17-08.57.37:512][752]LogModuleManager: Shutting down and abandoning module Analytics (129)
+[2016.08.17-08.57.37:512][752]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.08.17-08.57.37:536][752]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.08.17-08.57.37:548][752]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.08.17-08.57.37:548][752]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.08.17-08.57.37:782][752]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.08.17-08.57.37:800][752]LogModuleManager: Shutting down and abandoning module VaRestEditorPlugin (123)
+[2016.08.17-08.57.37:800][752]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.08.17-08.57.37:800][752]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.08.17-08.57.37:800][752]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.08.17-08.57.37:800][752]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.08.17-08.57.37:800][752]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
+[2016.08.17-08.57.37:800][752]LogModuleManager: Shutting down and abandoning module OculusInput (117)
+[2016.08.17-08.57.37:800][752]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
+[2016.08.17-08.57.37:854][752]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
+[2016.08.17-08.57.37:854][752]LogModuleManager: Shutting down and abandoning module CableComponent (114)
+[2016.08.17-08.57.37:866][752]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2016.08.17-08.57.37:866][752]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
+[2016.08.17-08.57.37:903][752]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
+[2016.08.17-08.57.37:926][752]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
+[2016.08.17-08.57.37:926][752]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.08.17-08.57.37:926][752]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.08.17-08.57.37:942][752]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.08.17-08.57.37:954][752]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.08.17-08.57.37:962][752]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.08.17-08.57.37:971][752]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.08.17-08.57.37:971][752]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.08.17-08.57.37:983][752]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.08.17-08.57.38:000][752]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.08.17-08.57.38:010][752]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.08.17-08.57.38:021][752]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.08.17-08.57.38:021][752]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.08.17-08.57.38:028][752]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.08.17-08.57.38:028][752]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.08.17-08.57.38:028][752]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2016.08.17-08.57.38:048][752]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.08.17-08.57.38:058][752]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.08.17-08.57.38:058][752]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.08.17-08.57.38:076][752]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (91)
+[2016.08.17-08.57.38:083][752]LogModuleManager: Shutting down and abandoning module AssetRegistry (90)
+[2016.08.17-08.57.38:223][752]LogModuleManager: Shutting down and abandoning module ContentBrowser (89)
+[2016.08.17-08.57.38:225][752]LogModuleManager: Shutting down and abandoning module Paper2DEditor (88)
+[2016.08.17-08.57.38:251][752]LogModuleManager: Shutting down and abandoning module VaRestPlugin (87)
+[2016.08.17-08.57.38:251][752]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.08.17-08.57.38:353][752]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.08.17-08.57.38:353][752]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.08.17-08.57.38:374][752]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.08.17-08.57.38:393][752]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.08.17-08.57.38:393][752]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.08.17-08.57.38:402][752]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.08.17-08.57.38:402][752]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.08.17-08.57.38:402][752]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.08.17-08.57.38:417][752]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.08.17-08.57.38:452][752]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.08.17-08.57.38:452][752]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.08.17-08.57.38:468][752]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.08.17-08.57.38:485][752]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.08.17-08.57.38:485][752]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.08.17-08.57.38:485][752]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.08.17-08.57.38:517][752]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.08.17-08.57.38:517][752]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.08.17-08.57.38:517][752]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.08.17-08.57.38:517][752]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.08.17-08.57.38:520][752]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.08.17-08.57.38:520][752]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.08.17-08.57.38:520][752]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.08.17-08.57.38:521][752]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.08.17-08.57.38:521][752]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.08.17-08.57.38:521][752]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.08.17-08.57.38:521][752]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.08.17-08.57.38:521][752]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.08.17-08.57.38:521][752]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.08.17-08.57.38:535][752]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.08.17-08.57.38:597][752]LogDerivedDataCache: Shutdown
+[2016.08.17-08.57.38:597][752]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.08.17-08.57.38:609][752]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.08.17-08.57.38:614][752]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.08.17-08.57.38:630][752]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.08.17-08.57.38:630][752]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.08.17-08.57.38:641][752]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.08.17-08.57.38:652][752]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.08.17-08.57.38:652][752]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.08.17-08.57.38:652][752]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.08.17-08.57.38:652][752]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.08.17-08.57.38:652][752]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.08.17-08.57.38:661][752]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.08.17-08.57.38:673][752]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.08.17-08.57.38:681][752]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.08.17-08.57.38:681][752]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.08.17-08.57.38:714][752]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.08.17-08.57.38:721][752]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.08.17-08.57.38:721][752]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.08.17-08.57.38:721][752]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.08.17-08.57.38:721][752]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.08.17-08.57.38:721][752]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.08.17-08.57.38:721][752]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.08.17-08.57.38:721][752]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.08.17-08.57.38:721][752]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.08.17-08.57.38:721][752]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.08.17-08.57.38:721][752]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.08.17-08.57.38:721][752]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.08.17-08.57.38:721][752]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.08.17-08.57.38:721][752]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.08.17-08.57.38:725][752]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.08.17-08.57.38:730][752]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.08.17-08.57.38:734][752]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.08.17-08.57.38:734][752]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.08.17-08.57.38:735][752]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.08.17-08.57.38:735][752]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.08.17-08.57.38:735][752]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.08.17-08.57.38:735][752]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.08.17-08.57.39:736][752]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.08.17-08.57.39:779][752]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.08.17-08.57.39:797][752]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.08.17-08.57.39:797][752]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.08.17-08.57.39:797][752]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.08.17-08.57.39:797][752]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.08.17-08.57.39:797][752]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.08.17-08.57.39:839][752]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.08.17-08.57.39:852][752]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.08.17-08.57.39:852][752]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.08.17-08.57.39:852][752]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.08.17-08.57.39:852][752]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.08.17-08.57.39:852][752]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.08.17-08.57.39:852][752]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.08.17-08.57.39:867][752]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.08.17-08.57.39:876][752]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.08.17-08.57.39:886][752]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.08.17-08.57.39:906][752]LogExit: Exiting.
+[2016.08.17-08.57.39:926][752]Log file closed, 08/17/16 14:27:39

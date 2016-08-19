@@ -1,0 +1,1196 @@
+﻿[2016.08.16-12.17.25:285][  0]Log file open, 08/16/16 17:47:25
+[2016.08.16-12.17.25:285][  0]LogInit:Display: Running engine for game: MyProject
+[2016.08.16-12.17.25:285][  0]LogPlatformFile: Not using cached read wrapper
+[2016.08.16-12.17.25:285][  0]LogInit:Display: RandInit(1933434516) SRandInit(1933434517).
+[2016.08.16-12.17.25:285][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.08.16-12.17.25:285][  0]LogStats: Stats thread started at 0.065511
+[2016.08.16-12.17.25:285][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.08.16-12.17.25:285][  0]LogInit: API Version: 2758231
+[2016.08.16-12.17.25:285][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.08.16-12.17.25:285][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.08.16-12.17.25:285][  0]LogInit: Build Configuration: Development
+[2016.08.16-12.17.25:285][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.08.16-12.17.25:285][  0]LogInit: Command line:  
+[2016.08.16-12.17.25:285][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.08.16-12.17.25:285][  0]LogInit: Rocket: 1
+[2016.08.16-12.17.25:298][  0]LogInit: Using libcurl 7.41.0
+[2016.08.16-12.17.25:298][  0]LogInit:  - built for x86_64-pc-win32
+[2016.08.16-12.17.25:298][  0]LogInit:  - supports SSL with WinSSL
+[2016.08.16-12.17.25:298][  0]LogInit:  - other features:
+[2016.08.16-12.17.25:298][  0]LogInit:      CURL_VERSION_SSL
+[2016.08.16-12.17.25:298][  0]LogInit:      CURL_VERSION_IPV6
+[2016.08.16-12.17.25:298][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.08.16-12.17.25:298][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.08.16-12.17.25:298][  0]LogInit:      CURL_VERSION_IDN
+[2016.08.16-12.17.25:298][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.08.16-12.17.25:298][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.08.16-12.17.25:298][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.08.16-12.17.25:298][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.08.16-12.17.25:298][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.08.16-12.17.25:311][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.08.16-12.17.25:318][  0]LogInit: Object subsystem initialized
+[2016.08.16-12.17.25:319][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.16-12.17.25:319][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.16-12.17.25:403][  0]LogInit: Computer: VISHAL-PC
+[2016.08.16-12.17.25:403][  0]LogInit: User: Vishal
+[2016.08.16-12.17.25:403][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.08.16-12.17.25:403][  0]LogInit: High frequency timer resolution =2.240910 MHz
+[2016.08.16-12.17.25:404][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.08.16-12.17.25:404][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.16-12.17.25:404][  0]LogMemory: Process Physical Memory: 59.31 MB used, 60.58 MB peak
+[2016.08.16-12.17.25:404][  0]LogMemory: Process Virtual Memory: 58.66 MB used, 58.66 MB peak
+[2016.08.16-12.17.25:404][  0]LogMemory: Physical Memory: 4877.15 MB used, 8075.38 MB total
+[2016.08.16-12.17.25:404][  0]LogMemory: Virtual Memory: 383.91 MB used, 134217728.00 MB total
+[2016.08.16-12.17.25:524][  0]LogTextLocalizationManager: No specific translations for ('en-IN') exist, so ('en') translations will be used.
+[2016.08.16-12.17.26:184][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce 820M              (Feature Level 11_0)
+[2016.08.16-12.17.26:184][  0]LogD3D11RHI: Adapter has 1999MB of dedicated video memory, 0MB of dedicated system memory, and 4037MB of shared system memory, 1 output[s]
+[2016.08.16-12.17.26:195][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2016.08.16-12.17.26:195][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 4037MB of shared system memory, 0 output[s]
+[2016.08.16-12.17.26:198][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.08.16-12.17.26:198][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4037MB of shared system memory, 0 output[s]
+[2016.08.16-12.17.26:198][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.08.16-12.17.26:205][  0]LogD3D11RHI: !Direct3DDevice
+[2016.08.16-12.17.26:205][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.16-12.17.26:224][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.16-12.17.26:237][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Intermediate/Shaders/WorkingDirectory/5416/).
+[2016.08.16-12.17.26:237][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Vishal/AppData/Local/Temp/UnrealShaderWorkingDir/3D604C594A283DC89A8E17A4CDFD32E2/'.
+[2016.08.16-12.17.26:237][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.16-12.17.28:361][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.16-12.17.28:370][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.16-12.17.28:377][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.16-12.17.28:385][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.16-12.17.28:392][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.16-12.17.28:401][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.16-12.17.28:407][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.16-12.17.28:414][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.16-12.17.28:420][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.16-12.17.28:427][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.16-12.17.28:432][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.16-12.17.28:445][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.08.16-12.17.28:445][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.16-12.17.28:448][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.16-12.17.28:476][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.16-12.17.28:481][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.16-12.17.28:488][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.16-12.17.28:510][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.16-12.17.28:510][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.16-12.17.28:643][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.16-12.17.29:762][  0]LogDerivedDataCache: Loaded boot cache 1.12s 41MB C:/Users/Vishal/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.08.16-12.17.29:762][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Vishal/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.08.16-12.17.29:762][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.16-12.17.29:762][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.16-12.17.29:762][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.16-12.17.29:762][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.16-12.17.29:841][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.16-12.17.29:853][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Vishal/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.16-12.17.32:127][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.16-12.17.32:130][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.08.16-12.17.32:277][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.16-12.17.32:277][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.16-12.17.32:654][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.16-12.17.41:643][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.16-12.17.42:024][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2016.08.16-12.17.42:302][  0]SourceControl: Info Source control is disabled
+[2016.08.16-12.17.42:304][  0]SourceControl: Info Source control is disabled
+[2016.08.16-12.17.42:326][  0]SourceControl: Info Source control is disabled
+[2016.08.16-12.17.42:349][  0]SourceControl: Info Source control is disabled
+[2016.08.16-12.17.43:792][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.08.16-12.17.43:792][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.08.16-12.17.43:965][  0]LogEngine: Initializing Engine...
+[2016.08.16-12.17.43:972][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.08.16-12.17.43:976][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.16-12.17.44:162][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.16-12.17.44:173][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.16-12.17.44:187][  0]LogInit: FAudioDevice initialized.
+[2016.08.16-12.17.44:213][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Vishal/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.08.16-12.17.44:221][  0]LogInit: Texture streaming: Enabled
+[2016.08.16-12.17.44:229][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.08.16-12.17.44:229][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.08.16-12.17.44:230][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 42581dee49f10cab728e808031ad0d6c|b3aa724033af48eb807787bc6a36fc12|7d3f72a1-08fb-45f7-99a2-cbbddc55c18e
+[2016.08.16-12.17.44:230][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.08.16-12.17.44:246][  0]LogInit: Transaction tracking system initialized
+[2016.08.16-12.17.44:288][  0]BlueprintLog: New page: Editor Load
+[2016.08.16-12.17.44:504][  0]LocalizationService: Info Localization service is disabled
+[2016.08.16-12.17.44:883][  0]LogConsoleResponse:Display: 
+[2016.08.16-12.17.45:055][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.08.16-12.17.45:349][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Vishal/Documents/Unreal Projects/MyProject/Content/' took 0.02s
+[2016.08.16-12.17.45:357][  0]SourceControl: Info Source control is disabled
+[2016.08.16-12.17.45:357][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Architecture.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.16-12.17.45:393][  0]LightingResults: New page: Lighting Build
+[2016.08.16-12.17.45:396][  0]MapCheck: New page: Map Check
+[2016.08.16-12.17.45:396][  0]LightingResults: New page: Lighting Build
+[2016.08.16-12.17.45:419][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020F74B8FB00
+[2016.08.16-12.17.52:533][  0]LogTexture:Display: Building textures: ExposedConcrete (BGRA8)
+[2016.08.16-12.17.52:667][  0]LogMaterial: Missing cached shader map for material ExposedConcrete_Mat, compiling. 
+[2016.08.16-12.17.53:047][  0]LogTexture:Display: Building textures: Carpet_Texture_1 (AutoDXT)
+[2016.08.16-12.17.57:056][  0]LogMaterial: Missing cached shader map for material Carpet_Texture_1_Mat, compiling. 
+[2016.08.16-12.17.57:086][  0]LogMaterial: Missing cached shader map for material BlueMaterial, compiling. 
+[2016.08.16-12.17.57:223][  0]LogTexture:Display: Building textures: woodb (AutoDXT)
+[2016.08.16-12.17.59:081][  0]LogMaterial: Missing cached shader map for material woodb_Mat, compiling. 
+[2016.08.16-12.17.59:158][  0]LogTexture:Display: Building textures: wood (AutoDXT)
+[2016.08.16-12.18.01:975][  0]LogMaterial: Missing cached shader map for material wood_Mat, compiling. 
+[2016.08.16-12.18.02:035][  0]LogTexture:Display: Building textures: k3 (AutoDXT)
+[2016.08.16-12.18.02:969][  0]LogMaterial: Missing cached shader map for material k3_Mat, compiling. 
+[2016.08.16-12.18.03:035][  0]LogTexture:Display: Building textures: k2 (AutoDXT)
+[2016.08.16-12.18.03:655][  0]LogMaterial: Missing cached shader map for material k2_Mat, compiling. 
+[2016.08.16-12.18.03:731][  0]LogTexture:Display: Building textures: woodr (AutoDXT)
+[2016.08.16-12.18.06:508][  0]LogMaterial: Missing cached shader map for material woodr_Mat, compiling. 
+[2016.08.16-12.18.06:629][  0]LogTexture:Display: Building textures: Blue_Leather_Texture (AutoDXT)
+[2016.08.16-12.18.09:222][  0]LogMaterial: Missing cached shader map for material Blue_Leather_Texture_Mat, compiling. 
+[2016.08.16-12.18.09:279][  0]LogTexture:Display: Building textures: Black_Leather_Texture (AutoDXT)
+[2016.08.16-12.18.10:191][  0]LogMaterial: Missing cached shader map for material Black_Leather_Texture_Mat, compiling. 
+[2016.08.16-12.18.10:401][  0]LogTexture:Display: Building textures: NatGeoPic (AutoDXT)
+[2016.08.16-12.18.14:163][  0]LogMaterial: Missing cached shader map for material NatGeoPic_Mat, compiling. 
+[2016.08.16-12.18.14:179][  0]LogMaterial: Missing cached shader map for material Black, compiling. 
+[2016.08.16-12.18.14:351][  0]LogStaticMesh: Building static mesh E2E3E5_default001...
+[2016.08.16-12.18.21:027][  0]LogStaticMesh: Built static mesh [6.676756.2s] /Game/ConferenceSet/E2E3E5_default001.E2E3E5_default001
+[2016.08.16-12.18.22:352][  0]LogStaticMesh: Building static mesh BeanBag...
+[2016.08.16-12.18.25:129][  0]LogStaticMesh: Built static mesh [2.777173.2s] /Game/BeanBag/BeanBag.BeanBag
+[2016.08.16-12.18.25:605][  0]LogStaticMesh: Building static mesh E2E3E5_E3E4_043...
+[2016.08.16-12.18.25:629][  0]LogStaticMesh: Built static mesh [0.023529.2s] /Game/ConferenceSet/E2E3E5_E3E4_043.E2E3E5_E3E4_043
+[2016.08.16-12.18.25:632][  0]LogStaticMesh: Building static mesh E2E3E5_E3E4_042...
+[2016.08.16-12.18.25:670][  0]LogStaticMesh: Built static mesh [0.038823.2s] /Game/ConferenceSet/E2E3E5_E3E4_042.E2E3E5_E3E4_042
+[2016.08.16-12.18.25:675][  0]LogStaticMesh: Building static mesh E2E3E5_E3E4_041...
+[2016.08.16-12.18.25:700][  0]LogStaticMesh: Built static mesh [0.025483.2s] /Game/ConferenceSet/E2E3E5_E3E4_041.E2E3E5_E3E4_041
+[2016.08.16-12.18.25:703][  0]LogStaticMesh: Building static mesh E2E3E5_default002...
+[2016.08.16-12.18.32:414][  0]LogStaticMesh: Built static mesh [6.711813.2s] /Game/ConferenceSet/E2E3E5_default002.E2E3E5_default002
+[2016.08.16-12.18.33:756][  0]LogStaticMesh: Building static mesh E2E3E5_Obj_051...
+[2016.08.16-12.18.33:762][  0]LogStaticMesh: Built static mesh [0.006068.2s] /Game/ConferenceSet/E2E3E5_Obj_051.E2E3E5_Obj_051
+[2016.08.16-12.18.33:764][  0]LogStaticMesh: Building static mesh E2E3E5_Obj_050...
+[2016.08.16-12.18.33:799][  0]LogStaticMesh: Built static mesh [0.035572.2s] /Game/ConferenceSet/E2E3E5_Obj_050.E2E3E5_Obj_050
+[2016.08.16-12.18.33:808][  0]LogStaticMesh: Building static mesh E2E3E5_E_stol_2_04...
+[2016.08.16-12.18.33:825][  0]LogStaticMesh: Built static mesh [0.017787.2s] /Game/ConferenceSet/E2E3E5_E_stol_2_04.E2E3E5_E_stol_2_04
+[2016.08.16-12.18.33:827][  0]LogStaticMesh: Building static mesh E2E3E5_E_stol_2_02...
+[2016.08.16-12.18.33:866][  0]LogStaticMesh: Built static mesh [0.039192.2s] /Game/ConferenceSet/E2E3E5_E_stol_2_02.E2E3E5_E_stol_2_02
+[2016.08.16-12.18.33:870][  0]LogStaticMesh: Building static mesh E2E3E5_E3E4_044...
+[2016.08.16-12.18.33:907][  0]LogStaticMesh: Built static mesh [0.037521.2s] /Game/ConferenceSet/E2E3E5_E3E4_044.E2E3E5_E3E4_044
+[2016.08.16-12.18.33:911][  0]LogStaticMesh: Building static mesh E2E3E5_Obj_060...
+[2016.08.16-12.18.33:944][  0]LogStaticMesh: Built static mesh [0.033150.2s] /Game/ConferenceSet/E2E3E5_Obj_060.E2E3E5_Obj_060
+[2016.08.16-12.18.33:947][  0]LogStaticMesh: Building static mesh E2E3E5_Obj_054...
+[2016.08.16-12.18.33:971][  0]LogStaticMesh: Built static mesh [0.023503.2s] /Game/ConferenceSet/E2E3E5_Obj_054.E2E3E5_Obj_054
+[2016.08.16-12.18.33:982][  0]LogStaticMesh: Building static mesh E2E3E5_Obj_053...
+[2016.08.16-12.18.33:988][  0]LogStaticMesh: Built static mesh [0.006493.2s] /Game/ConferenceSet/E2E3E5_Obj_053.E2E3E5_Obj_053
+[2016.08.16-12.18.33:990][  0]LogStaticMesh: Building static mesh E2E3E5_Obj_052...
+[2016.08.16-12.18.33:996][  0]LogStaticMesh: Built static mesh [0.006031.2s] /Game/ConferenceSet/E2E3E5_Obj_052.E2E3E5_Obj_052
+[2016.08.16-12.18.33:998][  0]LogStaticMesh: Building static mesh E2E3E5_Obj_064...
+[2016.08.16-12.18.34:021][  0]LogStaticMesh: Built static mesh [0.023321.2s] /Game/ConferenceSet/E2E3E5_Obj_064.E2E3E5_Obj_064
+[2016.08.16-12.18.34:024][  0]LogStaticMesh: Building static mesh E2E3E5_Obj_063...
+[2016.08.16-12.18.34:030][  0]LogStaticMesh: Built static mesh [0.006351.2s] /Game/ConferenceSet/E2E3E5_Obj_063.E2E3E5_Obj_063
+[2016.08.16-12.18.34:032][  0]LogStaticMesh: Building static mesh E2E3E5_Obj_062...
+[2016.08.16-12.18.34:039][  0]LogStaticMesh: Built static mesh [0.006792.2s] /Game/ConferenceSet/E2E3E5_Obj_062.E2E3E5_Obj_062
+[2016.08.16-12.18.34:041][  0]LogStaticMesh: Building static mesh E2E3E5_Obj_061...
+[2016.08.16-12.18.34:047][  0]LogStaticMesh: Built static mesh [0.006224.2s] /Game/ConferenceSet/E2E3E5_Obj_061.E2E3E5_Obj_061
+[2016.08.16-12.18.34:068][  0]LogStaticMesh: Building static mesh E2E3E5_Object1593...
+[2016.08.16-12.18.34:097][  0]LogStaticMesh: Built static mesh [0.047505.2s] /Game/ConferenceSet/E2E3E5_Object1593.E2E3E5_Object1593
+[2016.08.16-12.18.34:100][  0]LogStaticMesh: Building static mesh E2E3E5_Object1592...
+[2016.08.16-12.18.34:111][  0]LogStaticMesh: Built static mesh [0.010895.2s] /Game/ConferenceSet/E2E3E5_Object1592.E2E3E5_Object1592
+[2016.08.16-12.18.34:114][  0]LogStaticMesh: Building static mesh E2E3E5_Object1589...
+[2016.08.16-12.18.34:119][  0]LogStaticMesh: Built static mesh [0.005255.2s] /Game/ConferenceSet/E2E3E5_Object1589.E2E3E5_Object1589
+[2016.08.16-12.18.34:121][  0]LogStaticMesh: Building static mesh E2E3E5_Object1534...
+[2016.08.16-12.18.34:140][  0]LogStaticMesh: Built static mesh [0.019649.2s] /Game/ConferenceSet/E2E3E5_Object1534.E2E3E5_Object1534
+[2016.08.16-12.18.34:143][  0]LogStaticMesh: Building static mesh E2E3E5_Object1528...
+[2016.08.16-12.18.34:163][  0]LogStaticMesh: Built static mesh [0.020072.2s] /Game/ConferenceSet/E2E3E5_Object1528.E2E3E5_Object1528
+[2016.08.16-12.18.34:247][  0]LogStaticMesh: Building static mesh E2E3E5_Object323...
+[2016.08.16-12.18.34:275][  0]LogStaticMesh: Built static mesh [0.028064.2s] /Game/ConferenceSet/E2E3E5_Object323.E2E3E5_Object323
+[2016.08.16-12.18.34:278][  0]LogStaticMesh: Building static mesh E2E3E5_Object322...
+[2016.08.16-12.18.34:300][  0]LogStaticMesh: Built static mesh [0.022603.2s] /Game/ConferenceSet/E2E3E5_Object322.E2E3E5_Object322
+[2016.08.16-12.18.34:319][  0]LogStaticMesh: Building static mesh E2E3E5_Object1594...
+[2016.08.16-12.18.34:343][  0]LogStaticMesh: Built static mesh [0.024445.2s] /Game/ConferenceSet/E2E3E5_Object1594.E2E3E5_Object1594
+[2016.08.16-12.18.34:422][  0]LogMaterial: Missing cached shader map for material hrom, compiling. 
+[2016.08.16-12.18.34:662][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.08.16-12.18.37:687][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.08.16-12.18.39:710][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.08.16-12.18.39:777][  0]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2016.08.16-12.18.39:778][  0]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2016.08.16-12.18.39:788][  0]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2016.08.16-12.18.39:860][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.08.16-12.18.41:732][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.08.16-12.18.42:997][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.08.16-12.18.43:035][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2016.08.16-12.18.43:036][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2016.08.16-12.18.43:044][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2016.08.16-12.18.43:167][  0]LogTexture:Display: Building textures: Graffiti (AutoDXT)
+[2016.08.16-12.18.44:247][  0]LogMaterial: Missing cached shader map for material Graffiti_Mat, compiling. 
+[2016.08.16-12.18.44:329][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_75 (BGRA8)
+[2016.08.16-12.18.44:564][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_76 (BGRA8)
+[2016.08.16-12.18.44:576][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_77 (G8)
+[2016.08.16-12.18.44:576][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_78 (BGRA8)
+[2016.08.16-12.18.44:577][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_79 (G8)
+[2016.08.16-12.18.44:586][  0]LogStaticMesh: Building static mesh Cattelan_Italia_KARIBU_Line001...
+[2016.08.16-12.18.44:720][  0]LogStaticMesh: Built static mesh [0.134004.2s] /Game/ReceptionLamp/Cattelan_Italia_KARIBU_Line001.Cattelan_Italia_KARIBU_Line001
+[2016.08.16-12.18.44:733][  0]LogStaticMesh: Building static mesh Cattelan_Italia_KARIBU_Line002...
+[2016.08.16-12.18.44:737][  0]LogStaticMesh: Built static mesh [0.003826.2s] /Game/ReceptionLamp/Cattelan_Italia_KARIBU_Line002.Cattelan_Italia_KARIBU_Line002
+[2016.08.16-12.18.44:740][  0]LogStaticMesh: Building static mesh Cattelan_Italia_KARIBU_Line003...
+[2016.08.16-12.18.44:754][  0]LogStaticMesh: Built static mesh [0.014483.2s] /Game/ReceptionLamp/Cattelan_Italia_KARIBU_Line003.Cattelan_Italia_KARIBU_Line003
+[2016.08.16-12.18.44:791][  0]LogStaticMesh: Building static mesh Cattelan_Italia_KARIBU_Line005...
+[2016.08.16-12.18.44:844][  0]LogStaticMesh: Built static mesh [0.087857.2s] /Game/ReceptionLamp/Cattelan_Italia_KARIBU_Line005.Cattelan_Italia_KARIBU_Line005
+[2016.08.16-12.18.44:889][  0]LogStaticMesh: Building static mesh Cattelan_Italia_KARIBU_Line006...
+[2016.08.16-12.18.44:912][  0]LogStaticMesh: Built static mesh [0.044830.2s] /Game/ReceptionLamp/Cattelan_Italia_KARIBU_Line006.Cattelan_Italia_KARIBU_Line006
+[2016.08.16-12.18.44:937][  0]LogStaticMesh: Building static mesh Cattelan_Italia_KARIBU_Shape001...
+[2016.08.16-12.18.45:021][  0]LogStaticMesh: Built static mesh [0.103136.2s] /Game/ReceptionLamp/Cattelan_Italia_KARIBU_Shape001.Cattelan_Italia_KARIBU_Shape001
+[2016.08.16-12.18.45:051][  0]LogStaticMesh: Building static mesh Cattelan_Italia_KARIBU_Weld_001...
+[2016.08.16-12.18.45:271][  0]LogStaticMesh: Built static mesh [0.218835.2s] /Game/ReceptionLamp/Cattelan_Italia_KARIBU_Weld_001.Cattelan_Italia_KARIBU_Weld_001
+[2016.08.16-12.18.45:312][  0]LogStaticMesh: Building static mesh Cosmo_Bra_Object007...
+[2016.08.16-12.18.50:514][  0]LogStaticMesh: Built static mesh [5.202441.2s] /Game/SideLamp/Cosmo_Bra_Object007.Cosmo_Bra_Object007
+[2016.08.16-12.18.50:920][  0]LogStaticMesh: Building static mesh fames...
+[2016.08.16-12.18.52:066][  0]LogStaticMesh: Built static mesh [1.146781.2s] /Game/PictureFrame/fames.fames
+[2016.08.16-12.18.52:142][  0]LogStaticMesh: Building static mesh Kichler_City_Lights...
+[2016.08.16-12.18.53:112][  0]LogStaticMesh: Built static mesh [0.970708.2s] /Game/RoofLamp/Kichler_City_Lights.Kichler_City_Lights
+[2016.08.16-12.18.53:229][  0]LogStaticMesh: Building static mesh Koln_polyToSubd1...
+[2016.08.16-12.18.55:742][  0]LogStaticMesh: Built static mesh [2.533844.2s] /Game/SofaSet/Koln_polyToSubd1.Koln_polyToSubd1
+[2016.08.16-12.18.55:819][  0]LogStaticMesh: Building static mesh Koln_polyToSubd2...
+[2016.08.16-12.19.03:005][  0]LogStaticMesh: Built static mesh [7.186017.2s] /Game/SofaSet/Koln_polyToSubd2.Koln_polyToSubd2
+[2016.08.16-12.19.03:129][  0]LogStaticMesh: Building static mesh Koln_polyToSubd4...
+[2016.08.16-12.19.10:482][  0]LogStaticMesh: Built static mesh [7.353204.2s] /Game/SofaSet/Koln_polyToSubd4.Koln_polyToSubd4
+[2016.08.16-12.19.10:659][  0]LogStaticMesh: Building static mesh Koln_polyToSubd5...
+[2016.08.16-12.19.16:932][  0]LogStaticMesh: Built static mesh [6.289544.2s] /Game/SofaSet/Koln_polyToSubd5.Koln_polyToSubd5
+[2016.08.16-12.19.17:022][  0]LogStaticMesh: Building static mesh Koln_polyToSubd6...
+[2016.08.16-12.19.18:689][  0]LogStaticMesh: Built static mesh [1.667924.2s] /Game/SofaSet/Koln_polyToSubd6.Koln_polyToSubd6
+[2016.08.16-12.19.18:746][  0]LogStaticMesh: Building static mesh Koln_stitch1...
+[2016.08.16-12.19.21:414][  0]LogStaticMesh: Built static mesh [2.668253.2s] /Game/SofaSet/Koln_stitch1.Koln_stitch1
+[2016.08.16-12.19.21:442][  0]LogStaticMesh: Building static mesh Koln_stitch2...
+[2016.08.16-12.19.23:500][  0]LogStaticMesh: Built static mesh [2.058464.2s] /Game/SofaSet/Koln_stitch2.Koln_stitch2
+[2016.08.16-12.19.23:504][  0]LogStaticMesh: Building static mesh Koln_stitch3...
+[2016.08.16-12.19.26:334][  0]LogStaticMesh: Built static mesh [2.829753.2s] /Game/SofaSet/Koln_stitch3.Koln_stitch3
+[2016.08.16-12.19.26:361][  0]LogStaticMesh: Building static mesh Koln_stitch4...
+[2016.08.16-12.19.28:530][  0]LogStaticMesh: Built static mesh [2.168980.2s] /Game/SofaSet/Koln_stitch4.Koln_stitch4
+[2016.08.16-12.19.28:534][  0]LogStaticMesh: Building static mesh Koln_stitch5...
+[2016.08.16-12.19.31:342][  0]LogStaticMesh: Built static mesh [2.807855.2s] /Game/SofaSet/Koln_stitch5.Koln_stitch5
+[2016.08.16-12.19.31:382][  0]LogStaticMesh: Building static mesh Koln_stitch6...
+[2016.08.16-12.19.33:439][  0]LogStaticMesh: Built static mesh [2.064159.2s] /Game/SofaSet/Koln_stitch6.Koln_stitch6
+[2016.08.16-12.19.33:457][  0]LogStaticMesh: Building static mesh Koln_stitch7...
+[2016.08.16-12.19.36:022][  0]LogStaticMesh: Built static mesh [2.564922.2s] /Game/SofaSet/Koln_stitch7.Koln_stitch7
+[2016.08.16-12.19.36:051][  0]LogStaticMesh: Building static mesh Koln_stitch...
+[2016.08.16-12.19.38:717][  0]LogStaticMesh: Built static mesh [2.665320.2s] /Game/SofaSet/Koln_stitch.Koln_stitch
+[2016.08.16-12.19.38:738][  0]LogStaticMesh: Building static mesh monst...
+[2016.08.16-12.19.39:136][  0]LogStaticMesh: Built static mesh [0.414213.2s] /Game/Plant/monst.monst
+[2016.08.16-12.19.39:194][  0]LogStaticMesh: Building static mesh salida...
+[2016.08.16-12.19.45:523][  0]LogStaticMesh: Built static mesh [6.328269.2s] /Game/ReceptionChair/salida.salida
+[2016.08.16-12.19.46:764][  0]LogStaticMesh: Building static mesh ReceptionTable_Line04...
+[2016.08.16-12.19.46:850][  0]LogStaticMesh: Built static mesh [0.187578.2s] /Game/ReceptionTable/ReceptionTable_Line04.ReceptionTable_Line04
+[2016.08.16-12.19.46:873][  0]LogStaticMesh: Building static mesh ReceptionTable_Object102...
+[2016.08.16-12.19.47:104][  0]LogStaticMesh: Built static mesh [0.231207.2s] /Game/ReceptionTable/ReceptionTable_Object102.ReceptionTable_Object102
+[2016.08.16-12.19.47:120][  0]LogStaticMesh: Building static mesh ReceptionTable_Object103...
+[2016.08.16-12.19.47:313][  0]LogStaticMesh: Built static mesh [0.192269.2s] /Game/ReceptionTable/ReceptionTable_Object103.ReceptionTable_Object103
+[2016.08.16-12.19.47:348][  0]LogStaticMesh: Building static mesh ReceptionTable_Object104...
+[2016.08.16-12.19.47:526][  0]LogStaticMesh: Built static mesh [0.178187.2s] /Game/ReceptionTable/ReceptionTable_Object104.ReceptionTable_Object104
+[2016.08.16-12.19.47:549][  0]LogStaticMesh: Building static mesh ReceptionTable_Object105...
+[2016.08.16-12.19.47:564][  0]LogStaticMesh: Built static mesh [0.014924.2s] /Game/ReceptionTable/ReceptionTable_Object105.ReceptionTable_Object105
+[2016.08.16-12.19.47:598][  0]LogStaticMesh: Building static mesh TV_SONY_Logo001...
+[2016.08.16-12.19.47:628][  0]LogStaticMesh: Built static mesh [0.029630.2s] /Game/TV/TV_SONY_Logo001.TV_SONY_Logo001
+[2016.08.16-12.19.47:680][  0]LogStaticMesh: Building static mesh TV_SONY_TV_Sony_KD-49X8305C001...
+[2016.08.16-12.19.47:725][  0]LogStaticMesh: Built static mesh [0.070795.2s] /Game/TV/TV_SONY_TV_Sony_KD-49X8305C001.TV_SONY_TV_Sony_KD-49X8305C001
+[2016.08.16-12.19.47:902][  0]LogTexture:Display: Building textures: Picture (BGRA8)
+[2016.08.16-12.19.48:104][  0]LogMaterial: Missing cached shader map for material Picture_Mat, compiling. 
+[2016.08.16-12.19.48:116][  0]LogMaterial: Missing cached shader map for material StemGreenMaterial, compiling. 
+[2016.08.16-12.19.48:124][  0]LogMaterial: Missing cached shader map for material SoilMaterial, compiling. 
+[2016.08.16-12.19.48:143][  0]LogMaterial: Missing cached shader map for material LeafGreenMaterial, compiling. 
+[2016.08.16-12.19.48:153][  0]LogMaterial: Missing cached shader map for material BrownMaterial, compiling. 
+[2016.08.16-12.19.48:175][  0]LogTexture:Display: Building textures: TimBernersLee (BGRA8)
+[2016.08.16-12.19.48:239][  0]LogMaterial: Missing cached shader map for material TimBernersLee_Mat, compiling. 
+[2016.08.16-12.19.48:275][  0]LogTexture:Display: Building textures: SteveJobs (BGRA8)
+[2016.08.16-12.19.48:306][  0]LogMaterial: Missing cached shader map for material SteveJobs_Mat, compiling. 
+[2016.08.16-12.19.48:325][  0]LogTexture:Display: Building textures: LinusTorvalds (BGRA8)
+[2016.08.16-12.19.48:345][  0]LogMaterial: Missing cached shader map for material LinusTorvalds_Mat, compiling. 
+[2016.08.16-12.19.48:379][  0]LogTexture:Display: Building textures: LarryPage (BGRA8)
+[2016.08.16-12.19.48:400][  0]LogMaterial: Missing cached shader map for material LarryPage_Mat, compiling. 
+[2016.08.16-12.19.48:450][  0]LogTexture:Display: Building textures: DennisRitchie (AutoDXT)
+[2016.08.16-12.19.48:791][  0]LogMaterial: Missing cached shader map for material DennisRitchie_Mat, compiling. 
+[2016.08.16-12.19.48:841][  0]LogTexture:Display: Building textures: BillGates (AutoDXT)
+[2016.08.16-12.19.49:276][  0]LogMaterial: Missing cached shader map for material BillGates_Mat, compiling. 
+[2016.08.16-12.19.49:333][  0]LogMaterial: Missing cached shader map for material wood_brown_001, compiling. 
+[2016.08.16-12.19.49:350][  0]LogMaterial: Missing cached shader map for material WhiteMaterial, compiling. 
+[2016.08.16-12.19.49:367][  0]LogMaterial: Missing cached shader map for material YellowMaterial, compiling. 
+[2016.08.16-12.19.49:384][  0]LogTexture:Display: Building textures: WowLabz (AutoDXT)
+[2016.08.16-12.19.49:520][  0]LogMaterial: Missing cached shader map for material WowLabz_Mat, compiling. 
+[2016.08.16-12.19.49:556][  0]LogMaterial: Missing cached shader map for material RedMaterial, compiling. 
+[2016.08.16-12.19.49:620][  0]LogMaterial: Missing cached shader map for material PinkMaterial, compiling. 
+[2016.08.16-12.19.49:637][  0]LogMaterial: Missing cached shader map for material GreenMaterial, compiling. 
+[2016.08.16-12.19.49:744][  0]LogTexture:Display: Building textures: Carpet_Texture_2 (AutoDXT)
+[2016.08.16-12.19.52:980][  0]LogMaterial: Missing cached shader map for material Carpet_Texture_2_Mat, compiling. 
+[2016.08.16-12.19.53:138][  0]LogMaterial: Missing cached shader map for material fame2Mat, compiling. 
+[2016.08.16-12.19.53:176][  0]LogMaterial: Missing cached shader map for material fame006Mat, compiling. 
+[2016.08.16-12.19.53:192][  0]LogMaterial: Missing cached shader map for material fame005Mat, compiling. 
+[2016.08.16-12.19.53:204][  0]LogMaterial: Missing cached shader map for material fame004Mat, compiling. 
+[2016.08.16-12.19.53:217][  0]LogMaterial: Missing cached shader map for material fame003Mat, compiling. 
+[2016.08.16-12.19.53:230][  0]LogMaterial: Missing cached shader map for material frame1Mat, compiling. 
+[2016.08.16-12.19.53:246][  0]LogMaterial: Missing cached shader map for material chrome_Kichler, compiling. 
+[2016.08.16-12.19.53:275][  0]LogMaterial: Missing cached shader map for material chrome_brushed_Kichler, compiling. 
+[2016.08.16-12.19.53:293][  0]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2016.08.16-12.19.53:310][  0]LogMaterial: Missing cached shader map for material Plafon_Kichler, compiling. 
+[2016.08.16-12.19.53:350][  0]LogAIModule: Creating AISystem for world Architecture
+[2016.08.16-12.19.53:477][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.Carpet2.StaticMeshComponent0)
+[2016.08.16-12.19.53:480][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.Carpet3.StaticMeshComponent0)
+[2016.08.16-12.19.53:482][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.Carpet.StaticMeshComponent0)
+[2016.08.16-12.19.53:485][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.TVImage.StaticMeshComponent0)
+[2016.08.16-12.19.53:943][  0]LogEditorServer: Finished looking for orphan Actors (0.015 secs)
+[2016.08.16-12.19.53:998][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.16-12.19.54:216][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 218.04ms to complete.
+[2016.08.16-12.19.54:217][  0]LogFileHelpers: Loading map 'Architecture' took 128.859
+[2016.08.16-12.19.56:183][  0]LogCollectionManager: Loaded 0 collections in 0.003097 seconds
+[2016.08.16-12.19.56:342][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Collections/' took 0.01s
+[2016.08.16-12.19.56:342][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Vishal/Documents/Unreal Projects/MyProject/Content/Developers/Vishal/Collections/' took 0.01s
+[2016.08.16-12.19.56:342][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Vishal/Documents/Unreal Projects/MyProject/Content/Collections/' took 0.01s
+[2016.08.16-12.19.56:342][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000202 seconds
+[2016.08.16-12.19.56:373][  0]LogContentBrowser: Native class hierarchy populated in 0.0301 seconds. Added 1893 classes and 338 folders.
+[2016.08.16-12.19.56:498][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.08.16-12.19.58:506][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.08.16-12.19.58:569][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.08.16-12.19.59:607][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.16-12.19.59:708][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.08.16-12.19.59:788][  0]LogLoad: Full Startup: 155.59 seconds (BP compile: 0.24 seconds)
+[2016.08.16-12.19.59:831][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.08.16-12.20.00:493][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.08.16-12.20.00:960][  0]LogRenderer: Reallocating scene render targets to support 808x368 (Frame:2).
+[2016.08.16-12.20.04:274][  8]LogAssetRegistry: Asset discovery search completed in 142.2614 seconds
+[2016.08.16-12.20.04:411][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.08.16-12.20.04:447][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.076436 seconds (updated 0 objects)
+[2016.08.16-12.20.12:007][235]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (ReceptionChair)
+[2016.08.16-12.21.45:359][173]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.16-12.21.45:359][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.16-12.21.45:359][173]PIE: New page: PIE session: Architecture (16-Aug-2016 11:21:45 pm)
+[2016.08.16-12.21.45:359][173]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Architecture
+[2016.08.16-12.21.45:412][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052599s)
+[2016.08.16-12.21.45:413][173]LogAIModule: Creating AISystem for world Architecture
+[2016.08.16-12.21.45:413][173]LogPlayLevel: PIE: World Init took: (0.001066s)
+[2016.08.16-12.21.45:414][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Architecture.Architecture to /Game/UEDPIE_0_Architecture.Architecture (0.054184s)
+[2016.08.16-12.21.45:567][173]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.16-12.21.45:575][173]LogInit: FAudioDevice initialized.
+[2016.08.16-12.21.45:839][173]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.08.16-12.21.45:851][173]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet2.StaticMeshComponent0)
+[2016.08.16-12.21.45:859][173]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet3.StaticMeshComponent0)
+[2016.08.16-12.21.45:861][173]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet.StaticMeshComponent0)
+[2016.08.16-12.21.45:865][173]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.TVImage.StaticMeshComponent0)
+[2016.08.16-12.21.45:871][173]LogWorld: Bringing World /Game/UEDPIE_0_Architecture.Architecture up for play (max tick rate 60) at 2016.08.16-17.51.45
+[2016.08.16-12.21.45:871][173]LogActor:Warning: GameSession /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.16-12.21.45:871][173]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.16-12.21.45:890][173]LogWorld: Bringing up level for play took: 0.049888
+[2016.08.16-12.21.45:933][173]PIE: Info Play in editor start time for /Game/UEDPIE_0_Architecture -0.415
+[2016.08.16-12.21.45:933][173]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.16-12.21.48:168][230]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.16-12.21.48:231][230]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.16-12.21.48:261][230]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020F14DD4A40
+[2016.08.16-12.21.50:680][341]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.16-12.21.50:680][341]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.16-12.21.50:680][341]PIE: New page: PIE session: Architecture (16-Aug-2016 11:21:50 pm)
+[2016.08.16-12.21.50:681][341]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Architecture
+[2016.08.16-12.21.50:726][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045892s)
+[2016.08.16-12.21.50:727][341]LogAIModule: Creating AISystem for world Architecture
+[2016.08.16-12.21.50:727][341]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2016.08.16-12.21.50:728][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Architecture.Architecture to /Game/UEDPIE_0_Architecture.Architecture (0.047017s)
+[2016.08.16-12.21.50:759][341]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.16-12.21.50:767][341]LogInit: FAudioDevice initialized.
+[2016.08.16-12.21.50:847][341]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.08.16-12.21.50:856][341]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet2.StaticMeshComponent0)
+[2016.08.16-12.21.50:864][341]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet3.StaticMeshComponent0)
+[2016.08.16-12.21.50:867][341]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet.StaticMeshComponent0)
+[2016.08.16-12.21.50:870][341]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.TVImage.StaticMeshComponent0)
+[2016.08.16-12.21.50:875][341]LogWorld: Bringing World /Game/UEDPIE_0_Architecture.Architecture up for play (max tick rate 60) at 2016.08.16-17.51.50
+[2016.08.16-12.21.50:875][341]LogActor:Warning: GameSession /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.16-12.21.50:876][341]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.16-12.21.50:877][341]LogWorld: Bringing up level for play took: 0.029119
+[2016.08.16-12.21.50:914][341]PIE: Info Play in editor start time for /Game/UEDPIE_0_Architecture 0.566
+[2016.08.16-12.21.50:914][341]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.16-12.22.05:128][751]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.16-12.22.05:185][751]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.16-12.22.05:241][752]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020F13987600
+[2016.08.16-12.22.17:947][435]MapCheck: New page: Map Check
+[2016.08.16-12.22.18:131][435]Cmd: MAP REBUILD ALLVISIBLE
+[2016.08.16-12.22.18:171][435]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.08.16-12.22.18:582][435]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.Carpet2.StaticMeshComponent0)
+[2016.08.16-12.22.18:587][435]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.Carpet3.StaticMeshComponent0)
+[2016.08.16-12.22.18:589][435]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.Carpet.StaticMeshComponent0)
+[2016.08.16-12.22.18:592][435]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.TVImage.StaticMeshComponent0)
+[2016.08.16-12.22.18:686][435]MapCheck:Warning: Warning WorldSettings_1 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2016.08.16-12.22.18:696][435]LogStats:          STAT_HLOD_BuildClusters - 66.423 ms
+[2016.08.16-12.22.18:736][435]LightingResults: New page: Lighting Build - 16-Aug-2016 11:22:18 pm
+[2016.08.16-12.22.32:374][435]LogStaticLightingSystem:Warning: Failed to connect to Swarm.
+[2016.08.16-12.22.34:177][435]LogEditorBuildUtils: Build time 0:00:16
+[2016.08.16-12.22.35:967][512]MapCheck: New page: Map Check
+[2016.08.16-12.22.36:000][512]Cmd: MAP REBUILD ALLVISIBLE
+[2016.08.16-12.22.36:000][512]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.08.16-12.22.36:086][512]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.Carpet2.StaticMeshComponent0)
+[2016.08.16-12.22.36:090][512]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.Carpet3.StaticMeshComponent0)
+[2016.08.16-12.22.36:091][512]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.Carpet.StaticMeshComponent0)
+[2016.08.16-12.22.36:094][512]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.TVImage.StaticMeshComponent0)
+[2016.08.16-12.22.36:143][512]MapCheck:Warning: Warning WorldSettings_1 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2016.08.16-12.22.36:143][512]LogStats:          STAT_HLOD_BuildClusters - 30.136 ms
+[2016.08.16-12.22.36:144][512]LightingResults: New page: Lighting Build - 16-Aug-2016 11:22:36 pm
+[2016.08.16-12.22.42:319][512]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.08.16-12.22.42:355][512]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.08.16-12.22.42:355][512]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.08.16-12.22.42:355][512]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.08.16-12.22.42:355][512]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.08.16-12.22.42:355][512]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.08.16-12.22.43:769][512]LogEditorBuildUtils: Build time 0:00:07
+[2016.08.16-12.22.43:810][512]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_63, compiling. 
+[2016.08.16-12.22.43:825][512]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_63, compiling. 
+[2016.08.16-12.22.43:957][514]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Carpet_Texture_1_Mat, compiling. 
+[2016.08.16-12.22.43:988][514]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Carpet_Texture_1_Mat, compiling. 
+[2016.08.16-12.22.44:105][515]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Blue_Leather_Texture_Mat, compiling. 
+[2016.08.16-12.22.44:121][515]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Blue_Leather_Texture_Mat, compiling. 
+[2016.08.16-12.22.44:180][516]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Black_Leather_Texture_Mat, compiling. 
+[2016.08.16-12.22.44:209][516]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Black_Leather_Texture_Mat, compiling. 
+[2016.08.16-12.22.44:294][517]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_72, compiling. 
+[2016.08.16-12.22.44:308][517]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_72, compiling. 
+[2016.08.16-12.22.44:814][522]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WowLabz_Mat, compiling. 
+[2016.08.16-12.22.44:826][522]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WowLabz_Mat, compiling. 
+[2016.08.16-12.22.44:856][523]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer k3_Mat, compiling. 
+[2016.08.16-12.22.44:865][523]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer k3_Mat, compiling. 
+[2016.08.16-12.22.44:896][524]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer k2_Mat, compiling. 
+[2016.08.16-12.22.44:906][524]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer k2_Mat, compiling. 
+[2016.08.16-12.22.44:946][525]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Carpet_Texture_2_Mat, compiling. 
+[2016.08.16-12.22.44:970][525]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Carpet_Texture_2_Mat, compiling. 
+[2016.08.16-12.22.45:105][529]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WhiteMaterial, compiling. 
+[2016.08.16-12.22.45:122][529]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WhiteMaterial, compiling. 
+[2016.08.16-12.22.45:148][530]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer woodr_Mat, compiling. 
+[2016.08.16-12.22.45:160][530]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer woodr_Mat, compiling. 
+[2016.08.16-12.22.45:203][531]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer woodb_Mat, compiling. 
+[2016.08.16-12.22.45:221][531]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer woodb_Mat, compiling. 
+[2016.08.16-12.22.45:257][532]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wood_Mat, compiling. 
+[2016.08.16-12.22.45:265][532]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wood_Mat, compiling. 
+[2016.08.16-12.22.45:290][533]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer StemGreenMaterial, compiling. 
+[2016.08.16-12.22.45:298][533]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer StemGreenMaterial, compiling. 
+[2016.08.16-12.22.45:322][534]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LeafGreenMaterial, compiling. 
+[2016.08.16-12.22.45:330][534]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LeafGreenMaterial, compiling. 
+[2016.08.16-12.22.45:357][535]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BrownMaterial, compiling. 
+[2016.08.16-12.22.45:364][535]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BrownMaterial, compiling. 
+[2016.08.16-12.22.45:395][536]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer SoilMaterial, compiling. 
+[2016.08.16-12.22.45:402][536]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer SoilMaterial, compiling. 
+[2016.08.16-12.23.40:948][693]LightingResults:Error: Error Kichler_City_Lights Object has overlapping UVs.
+[2016.08.16-12.23.40:948][693]LightingResults: Info Kichler_City_Lights Lightmap UV are overlapping by 24.1%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.24.05:615][767]LightingResults:Error: Error E2E3E5_E3E4_041 Object has overlapping UVs.
+[2016.08.16-12.24.05:615][767]LightingResults: Info E2E3E5_E3E4_041 Lightmap UV are overlapping by 58.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.24.09:616][779]LightingResults:Error: Error Koln_stitch1 Object has overlapping UVs.
+[2016.08.16-12.24.09:616][779]LightingResults: Info Koln_stitch1 Lightmap UV are overlapping by 65.6%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.24.13:283][790]LightingResults:Error: Error Koln_stitch3 Object has overlapping UVs.
+[2016.08.16-12.24.13:283][790]LightingResults: Info Koln_stitch3 Lightmap UV are overlapping by 65.6%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.24.13:950][792]LightingResults:Error: Error salida Object has overlapping UVs.
+[2016.08.16-12.24.13:950][792]LightingResults: Info salida Lightmap UV are overlapping by 3.8%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.24.15:617][797]LightingResults:Error: Error E2E3E5_E3E4_042 Object has overlapping UVs.
+[2016.08.16-12.24.15:617][797]LightingResults: Info E2E3E5_E3E4_042 Lightmap UV are overlapping by 41.5%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.24.26:285][829]LightingResults:Error: Error E2E3E5_Obj_064 Object has overlapping UVs.
+[2016.08.16-12.24.26:285][829]LightingResults: Info E2E3E5_Obj_064 Lightmap UV are overlapping by 47.1%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.24.29:618][839]LightingResults:Error: Error E2E3E5_Obj_054 Object has overlapping UVs.
+[2016.08.16-12.24.29:618][839]LightingResults: Info E2E3E5_Obj_054 Lightmap UV are overlapping by 47.1%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.24.31:288][844]LightingResults:Error: Error E2E3E5_Obj_053 Object has overlapping UVs.
+[2016.08.16-12.24.31:288][844]LightingResults: Info E2E3E5_Obj_053 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.24.32:622][848]LightingResults:Error: Error E2E3E5_Obj_063 Object has overlapping UVs.
+[2016.08.16-12.24.32:622][848]LightingResults: Info E2E3E5_Obj_063 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.24.33:622][851]LightingResults:Error: Error E2E3E5_Obj_061 Object has overlapping UVs.
+[2016.08.16-12.24.33:622][851]LightingResults: Info E2E3E5_Obj_061 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.24.33:622][851]LightingResults:Error: Error E2E3E5_Object1592 Object has overlapping UVs.
+[2016.08.16-12.24.33:622][851]LightingResults: Info E2E3E5_Object1592 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.24.35:622][857]LightingResults:Error: Error ReceptionTable_Object105 Object has overlapping UVs.
+[2016.08.16-12.24.35:622][857]LightingResults: Info ReceptionTable_Object105 Lightmap UV are overlapping by 52.1%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.24.38:291][865]LightingResults:Error: Error ReceptionTable_Line04 Object has overlapping UVs.
+[2016.08.16-12.24.38:291][865]LightingResults: Info ReceptionTable_Line04 Lightmap UV are overlapping by 29.8%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.24.43:960][882]LightingResults:Error: Error TV_SONY_TV_Sony_KD-49X8305C001 Object has overlapping UVs.
+[2016.08.16-12.24.43:960][882]LightingResults: Info TV_SONY_TV_Sony_KD-49X8305C001 Lightmap UV are overlapping by 6.3%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.24.48:961][897]LightingResults:Error: Error Cosmo_Bra_Object007 Object has overlapping UVs.
+[2016.08.16-12.24.48:961][897]LightingResults: Info Cosmo_Bra_Object007 Lightmap UV are overlapping by 35.1%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.24.53:295][910]LightingResults:Error: Error Cosmo_Bra_Object007 Object has overlapping UVs.
+[2016.08.16-12.24.53:295][910]LightingResults: Info Cosmo_Bra_Object007 Lightmap UV are overlapping by 35.1%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.24.54:629][914]LightingResults:Error: Error Cosmo_Bra_Object007 Object has overlapping UVs.
+[2016.08.16-12.24.54:629][914]LightingResults: Info Cosmo_Bra_Object007 Lightmap UV are overlapping by 35.1%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.24.55:629][917]LightingResults:Error: Error E2E3E5_Obj_062 Object has overlapping UVs.
+[2016.08.16-12.24.55:629][917]LightingResults: Info E2E3E5_Obj_062 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.24.57:628][923]LightingResults:Error: Error Cosmo_Bra_Object007 Object has overlapping UVs.
+[2016.08.16-12.24.57:628][923]LightingResults: Info Cosmo_Bra_Object007 Lightmap UV are overlapping by 35.1%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.25.00:296][931]LightingResults:Error: Error fames Object has overlapping UVs.
+[2016.08.16-12.25.00:296][931]LightingResults: Info fames Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.25.02:962][939]LightingResults:Error: Error E2E3E5_E_stol_2_02 Object has overlapping UVs.
+[2016.08.16-12.25.02:962][939]LightingResults: Info E2E3E5_E_stol_2_02 Lightmap UV are overlapping by 49.4%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.25.03:296][940]LightingResults:Error: Error E2E3E5_Obj_052 Object has overlapping UVs.
+[2016.08.16-12.25.03:296][940]LightingResults: Info E2E3E5_Obj_052 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.25.03:964][942]LightingResults:Error: Error E2E3E5_Obj_051 Object has overlapping UVs.
+[2016.08.16-12.25.03:964][942]LightingResults: Info E2E3E5_Obj_051 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.25.05:297][946]LightingResults:Error: Error E2E3E5_E3E4_044 Object has overlapping UVs.
+[2016.08.16-12.25.05:297][946]LightingResults: Info E2E3E5_E3E4_044 Lightmap UV are overlapping by 41.5%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.25.08:965][957]LightingResults:Error: Error E2E3E5_E3E4_043 Object has overlapping UVs.
+[2016.08.16-12.25.08:965][957]LightingResults: Info E2E3E5_E3E4_043 Lightmap UV are overlapping by 58.2%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.25.11:632][965]LightingResults:Error: Error E2E3E5_Object1589 Object has overlapping UVs.
+[2016.08.16-12.25.11:632][965]LightingResults: Info E2E3E5_Object1589 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.25.40:635][ 52]LightingResults:Error: Error Koln_stitch5 Object has overlapping UVs.
+[2016.08.16-12.25.40:635][ 52]LightingResults: Info Koln_stitch5 Lightmap UV are overlapping by 65.6%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.25.42:968][ 59]LightingResults:Error: Error Koln_stitch7 Object has overlapping UVs.
+[2016.08.16-12.25.42:968][ 59]LightingResults: Info Koln_stitch7 Lightmap UV are overlapping by 90.7%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.25.43:301][ 60]LightingResults:Error: Error Koln_stitch Object has overlapping UVs.
+[2016.08.16-12.25.43:302][ 60]LightingResults: Info Koln_stitch Lightmap UV are overlapping by 90.7%. Please adjust content - Enable Error Coloring to visualize.
+[2016.08.16-12.26.30:974][203]Job is a success!
+[2016.08.16-12.26.31:492][204]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.Carpet2.StaticMeshComponent0)
+[2016.08.16-12.26.31:497][204]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.Carpet3.StaticMeshComponent0)
+[2016.08.16-12.26.31:498][204]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.Carpet.StaticMeshComponent0)
+[2016.08.16-12.26.31:502][204]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.TVImage.StaticMeshComponent0)
+[2016.08.16-12.26.31:843][204]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.Carpet.StaticMeshComponent0)
+[2016.08.16-12.26.31:843][204]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.Carpet2.StaticMeshComponent0)
+[2016.08.16-12.26.31:843][204]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.Carpet3.StaticMeshComponent0)
+[2016.08.16-12.26.31:845][204]LogMaterial:Warning: Material /Game/Plant/StemGreenMaterial.StemGreenMaterial needed to have new flag set bUsedWithStaticLighting !
+[2016.08.16-12.26.31:899][204]LogMaterial: Missing cached shader map for material StemGreenMaterial, compiling. 
+[2016.08.16-12.26.31:947][204]LogMaterial: 0.023485 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.16-12.26.31:947][204]LogMaterial:Warning: Material /Game/Plant/LeafGreenMaterial.LeafGreenMaterial needed to have new flag set bUsedWithStaticLighting !
+[2016.08.16-12.26.31:949][204]LogMaterial: Missing cached shader map for material LeafGreenMaterial, compiling. 
+[2016.08.16-12.26.31:962][204]LogMaterial: 0.000166 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.16-12.26.31:962][204]LogMaterial:Warning: Material /Game/Plant/BrownMaterial.BrownMaterial needed to have new flag set bUsedWithStaticLighting !
+[2016.08.16-12.26.31:988][204]LogMaterial: Missing cached shader map for material BrownMaterial, compiling. 
+[2016.08.16-12.26.32:005][204]LogMaterial: 0.000232 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.16-12.26.32:005][204]LogMaterial:Warning: Material /Game/Plant/SoilMaterial.SoilMaterial needed to have new flag set bUsedWithStaticLighting !
+[2016.08.16-12.26.32:028][204]LogMaterial: Missing cached shader map for material SoilMaterial, compiling. 
+[2016.08.16-12.26.32:044][204]LogMaterial: 0.000117 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.08.16-12.26.32:050][204]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.TVImage.StaticMeshComponent0)
+[2016.08.16-12.26.32:599][204]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.08.16-12.26.34:835][204]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2016.08.16-12.26.34:836][204]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2016.08.16-12.26.34:836][204]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2016.08.16-12.26.34:844][204]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2016.08.16-12.26.34:853][204]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2016.08.16-12.26.34:861][204]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2016.08.16-12.26.34:871][204]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2016.08.16-12.26.34:907][204]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2016.08.16-12.26.34:976][204]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.08.16-12.26.35:916][204]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.08.16-12.26.37:559][204]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.08.16-12.26.40:070][204]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2016.08.16-12.26.40:405][204]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2016.08.16-12.26.40:437][204]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2016.08.16-12.26.40:488][204]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2016.08.16-12.26.40:505][204]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8)
+[2016.08.16-12.26.41:130][204]Lightmass on VISHAL-PC: 3:43 min total, 9.97 sec importing, 4.50 sec setup, 3.74 sec photons, 3:22 min processing, 0 ms extra exporting [207/207 mappings]. Threads: 13:31 min total, 9:35 min processing.
+[2016.08.16-12.26.41:244][204]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.Carpet2.StaticMeshComponent0)
+[2016.08.16-12.26.41:246][204]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.Carpet3.StaticMeshComponent0)
+[2016.08.16-12.26.41:247][204]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.Carpet.StaticMeshComponent0)
+[2016.08.16-12.26.41:248][204]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.TVImage.StaticMeshComponent0)
+[2016.08.16-12.26.41:359][204]LogStaticLightingSystem: Illumination: 4:04 min (8.43 sec encoding lightmaps)
+[2016.08.16-12.26.41:359][204]LogStaticLightingSystem: Lightmap texture memory:  3.0 MB (2.7 MB streaming, 0.3 MB non-streaming), 12 textures
+[2016.08.16-12.26.41:359][204]LogStaticLightingSystem: Shadowmap texture memory: 11.3 MB (10.7 MB streaming, 0.7 MB non-streaming), 5 textures
+[2016.08.16-12.26.48:478][205]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.08.16-12.26.48:478][205]MapCheck: New page: Architecture - 16-Aug-2016 11:26:48 pm
+[2016.08.16-12.26.48:591][205]MapCheck:Error: Error Carpet Carpet : Invalid DrawScale/DrawScale3D 
+[2016.08.16-12.26.48:600][205]MapCheck:Error: Error Carpet2 Carpet2 : Invalid DrawScale/DrawScale3D 
+[2016.08.16-12.26.48:600][205]MapCheck:Error: Error Carpet3 Carpet3 : Invalid DrawScale/DrawScale3D 
+[2016.08.16-12.26.48:601][205]MapCheck:Error: Error Koln_4 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:601][205]MapCheck:Warning: Warning Koln_4 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:601][205]MapCheck:Warning: Warning Koln_4 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:603][205]MapCheck:Error: Error STUDIMO_Vray_OBJ_829 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:603][205]MapCheck:Warning: Warning STUDIMO_Vray_OBJ_829 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:603][205]MapCheck:Warning: Warning STUDIMO_Vray_OBJ_829 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:603][205]MapCheck:Error: Error Table_and_chairs_attachment_005_520 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:603][205]MapCheck:Warning: Warning Table_and_chairs_attachment_005_520 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:603][205]MapCheck:Warning: Warning Table_and_chairs_attachment_005_520 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:603][205]MapCheck:Error: Error Table_and_chairs_attachment_006_522 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:603][205]MapCheck:Warning: Warning Table_and_chairs_attachment_006_522 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:604][205]MapCheck:Warning: Warning Table_and_chairs_attachment_006_522 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:604][205]MapCheck:Error: Error Table_and_chairs_attachment_007_524 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:604][205]MapCheck:Warning: Warning Table_and_chairs_attachment_007_524 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:604][205]MapCheck:Warning: Warning Table_and_chairs_attachment_007_524 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:604][205]MapCheck:Error: Error Table_and_chairs_attachment_008_526 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:604][205]MapCheck:Warning: Warning Table_and_chairs_attachment_008_526 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:604][205]MapCheck:Warning: Warning Table_and_chairs_attachment_008_526 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:604][205]MapCheck:Error: Error Table_and_chairs_attachment_10 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:604][205]MapCheck:Warning: Warning Table_and_chairs_attachment_10 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:604][205]MapCheck:Warning: Warning Table_and_chairs_attachment_10 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:605][205]MapCheck:Error: Error Table_and_chairs_attachment_11 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:605][205]MapCheck:Warning: Warning Table_and_chairs_attachment_11 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:605][205]MapCheck:Warning: Warning Table_and_chairs_attachment_11 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:605][205]MapCheck:Error: Error Table_and_chairs_attachment_12 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:605][205]MapCheck:Warning: Warning Table_and_chairs_attachment_12 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:605][205]MapCheck:Warning: Warning Table_and_chairs_attachment_12 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:605][205]MapCheck:Error: Error Table_and_chairs_attachment_13 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:605][205]MapCheck:Warning: Warning Table_and_chairs_attachment_13 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:605][205]MapCheck:Warning: Warning Table_and_chairs_attachment_13 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:605][205]MapCheck:Error: Error Table_and_chairs_attachment_14 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:605][205]MapCheck:Warning: Warning Table_and_chairs_attachment_14 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:605][205]MapCheck:Warning: Warning Table_and_chairs_attachment_14 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:606][205]MapCheck:Error: Error Table_and_chairs_attachment_15 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:606][205]MapCheck:Warning: Warning Table_and_chairs_attachment_15 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:606][205]MapCheck:Warning: Warning Table_and_chairs_attachment_15 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:606][205]MapCheck:Error: Error Table_and_chairs_attachment_16 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:606][205]MapCheck:Warning: Warning Table_and_chairs_attachment_16 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:606][205]MapCheck:Warning: Warning Table_and_chairs_attachment_16 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:606][205]MapCheck:Error: Error Table_and_chairs_attachment_17 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:606][205]MapCheck:Warning: Warning Table_and_chairs_attachment_17 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:606][205]MapCheck:Warning: Warning Table_and_chairs_attachment_17 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:606][205]MapCheck:Error: Error Table_and_chairs_attachment_6 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:606][205]MapCheck:Warning: Warning Table_and_chairs_attachment_6 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:606][205]MapCheck:Warning: Warning Table_and_chairs_attachment_6 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:606][205]MapCheck:Error: Error Table_and_chairs_attachment_7 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:607][205]MapCheck:Warning: Warning Table_and_chairs_attachment_7 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:607][205]MapCheck:Warning: Warning Table_and_chairs_attachment_7 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:607][205]MapCheck:Error: Error Table_and_chairs_attachment_8 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:607][205]MapCheck:Warning: Warning Table_and_chairs_attachment_8 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:607][205]MapCheck:Warning: Warning Table_and_chairs_attachment_8 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:607][205]MapCheck:Error: Error Table_and_chairs_attachment_9 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:607][205]MapCheck:Warning: Warning Table_and_chairs_attachment_9 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:607][205]MapCheck:Warning: Warning Table_and_chairs_attachment_9 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:607][205]MapCheck:Error: Error Table_and_chairs_back_002_562 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:607][205]MapCheck:Warning: Warning Table_and_chairs_back_002_562 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:607][205]MapCheck:Warning: Warning Table_and_chairs_back_002_562 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:607][205]MapCheck:Error: Error Table_and_chairs_back_3 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:608][205]MapCheck:Warning: Warning Table_and_chairs_back_3 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:608][205]MapCheck:Warning: Warning Table_and_chairs_back_3 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:608][205]MapCheck:Error: Error Table_and_chairs_back_4 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:608][205]MapCheck:Warning: Warning Table_and_chairs_back_4 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:608][205]MapCheck:Warning: Warning Table_and_chairs_back_4 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:608][205]MapCheck:Error: Error Table_and_chairs_back_5 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:608][205]MapCheck:Warning: Warning Table_and_chairs_back_5 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:608][205]MapCheck:Warning: Warning Table_and_chairs_back_5 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:608][205]MapCheck:Error: Error Table_and_chairs_leg_002_574 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:608][205]MapCheck:Warning: Warning Table_and_chairs_leg_002_574 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:608][205]MapCheck:Warning: Warning Table_and_chairs_leg_002_574 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:608][205]MapCheck:Error: Error Table_and_chairs_leg_3 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:609][205]MapCheck:Warning: Warning Table_and_chairs_leg_3 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:609][205]MapCheck:Warning: Warning Table_and_chairs_leg_3 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:609][205]MapCheck:Error: Error Table_and_chairs_leg_4 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:609][205]MapCheck:Warning: Warning Table_and_chairs_leg_4 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:609][205]MapCheck:Warning: Warning Table_and_chairs_leg_4 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:609][205]MapCheck:Error: Error Table_and_chairs_leg_5 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:609][205]MapCheck:Warning: Warning Table_and_chairs_leg_5 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:609][205]MapCheck:Warning: Warning Table_and_chairs_leg_5 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:609][205]MapCheck:Error: Error Table_and_chairs_Line001_584 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:609][205]MapCheck:Warning: Warning Table_and_chairs_Line001_584 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:609][205]MapCheck:Warning: Warning Table_and_chairs_Line001_584 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:610][205]MapCheck:Error: Error Table_and_chairs_Line003_586 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:610][205]MapCheck:Warning: Warning Table_and_chairs_Line003_586 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:610][205]MapCheck:Warning: Warning Table_and_chairs_Line003_586 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:610][205]MapCheck:Error: Error Table_and_chairs_Line1224_606 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:610][205]MapCheck:Warning: Warning Table_and_chairs_Line1224_606 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:610][205]MapCheck:Warning: Warning Table_and_chairs_Line1224_606 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:610][205]MapCheck:Error: Error Table_and_chairs_Line1225_608 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:610][205]MapCheck:Warning: Warning Table_and_chairs_Line1225_608 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:610][205]MapCheck:Warning: Warning Table_and_chairs_Line1225_608 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:610][205]MapCheck:Error: Error Table_and_chairs_Line1226_610 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:610][205]MapCheck:Warning: Warning Table_and_chairs_Line1226_610 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:611][205]MapCheck:Warning: Warning Table_and_chairs_Line1226_610 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:611][205]MapCheck:Error: Error Table_and_chairs_Line1227_612 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:611][205]MapCheck:Warning: Warning Table_and_chairs_Line1227_612 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:611][205]MapCheck:Warning: Warning Table_and_chairs_Line1227_612 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:611][205]MapCheck:Error: Error Table_and_chairs_Line1228_614 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:611][205]MapCheck:Warning: Warning Table_and_chairs_Line1228_614 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:611][205]MapCheck:Warning: Warning Table_and_chairs_Line1228_614 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:611][205]MapCheck:Error: Error Table_and_chairs_Line1229_616 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:611][205]MapCheck:Warning: Warning Table_and_chairs_Line1229_616 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:611][205]MapCheck:Warning: Warning Table_and_chairs_Line1229_616 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:611][205]MapCheck:Error: Error Table_and_chairs_Line1230_618 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:612][205]MapCheck:Warning: Warning Table_and_chairs_Line1230_618 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:612][205]MapCheck:Warning: Warning Table_and_chairs_Line1230_618 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:612][205]MapCheck:Error: Error Table_and_chairs_Line1231_620 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:612][205]MapCheck:Warning: Warning Table_and_chairs_Line1231_620 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:612][205]MapCheck:Warning: Warning Table_and_chairs_Line1231_620 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:612][205]MapCheck:Error: Error Table_and_chairs_Line1232 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:612][205]MapCheck:Warning: Warning Table_and_chairs_Line1232 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:612][205]MapCheck:Warning: Warning Table_and_chairs_Line1232 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:612][205]MapCheck:Error: Error Table_and_chairs_Line1233 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:612][205]MapCheck:Warning: Warning Table_and_chairs_Line1233 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:612][205]MapCheck:Warning: Warning Table_and_chairs_Line1233 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:612][205]MapCheck:Error: Error Table_and_chairs_Line1234 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:613][205]MapCheck:Warning: Warning Table_and_chairs_Line1234 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:613][205]MapCheck:Warning: Warning Table_and_chairs_Line1234 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:613][205]MapCheck:Error: Error Table_and_chairs_Line1235 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:613][205]MapCheck:Warning: Warning Table_and_chairs_Line1235 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:613][205]MapCheck:Warning: Warning Table_and_chairs_Line1235 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:613][205]MapCheck:Error: Error Table_and_chairs_Line1236 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:613][205]MapCheck:Warning: Warning Table_and_chairs_Line1236 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:613][205]MapCheck:Warning: Warning Table_and_chairs_Line1236 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:613][205]MapCheck:Error: Error Table_and_chairs_Line1237 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:613][205]MapCheck:Warning: Warning Table_and_chairs_Line1237 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:613][205]MapCheck:Warning: Warning Table_and_chairs_Line1237 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:613][205]MapCheck:Error: Error Table_and_chairs_Line1238 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:613][205]MapCheck:Warning: Warning Table_and_chairs_Line1238 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:614][205]MapCheck:Warning: Warning Table_and_chairs_Line1238 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:614][205]MapCheck:Error: Error Table_and_chairs_Line1239 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:614][205]MapCheck:Warning: Warning Table_and_chairs_Line1239 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:614][205]MapCheck:Warning: Warning Table_and_chairs_Line1239 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:614][205]MapCheck:Error: Error Table_and_chairs_Line1240 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:614][205]MapCheck:Warning: Warning Table_and_chairs_Line1240 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:614][205]MapCheck:Warning: Warning Table_and_chairs_Line1240 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:614][205]MapCheck:Error: Error Table_and_chairs_Line1241 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:614][205]MapCheck:Warning: Warning Table_and_chairs_Line1241 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:614][205]MapCheck:Warning: Warning Table_and_chairs_Line1241 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:614][205]MapCheck:Error: Error Table_and_chairs_Line1242 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:614][205]MapCheck:Warning: Warning Table_and_chairs_Line1242 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:615][205]MapCheck:Warning: Warning Table_and_chairs_Line1242 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:615][205]MapCheck:Error: Error Table_and_chairs_Line1243 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:615][205]MapCheck:Warning: Warning Table_and_chairs_Line1243 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:615][205]MapCheck:Warning: Warning Table_and_chairs_Line1243 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:615][205]MapCheck:Error: Error Table_and_chairs_Line1244 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:615][205]MapCheck:Warning: Warning Table_and_chairs_Line1244 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:615][205]MapCheck:Warning: Warning Table_and_chairs_Line1244 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:615][205]MapCheck:Error: Error Table_and_chairs_Line1245 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:615][205]MapCheck:Warning: Warning Table_and_chairs_Line1245 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:615][205]MapCheck:Warning: Warning Table_and_chairs_Line1245 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:615][205]MapCheck:Error: Error Table_and_chairs_Line1246 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:615][205]MapCheck:Warning: Warning Table_and_chairs_Line1246 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:616][205]MapCheck:Warning: Warning Table_and_chairs_Line1246 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:616][205]MapCheck:Error: Error Table_and_chairs_Line1247 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:616][205]MapCheck:Warning: Warning Table_and_chairs_Line1247 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:616][205]MapCheck:Warning: Warning Table_and_chairs_Line1247 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:616][205]MapCheck:Error: Error Table_and_chairs_Line1248 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:616][205]MapCheck:Warning: Warning Table_and_chairs_Line1248 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:616][205]MapCheck:Warning: Warning Table_and_chairs_Line1248 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:616][205]MapCheck:Error: Error Table_and_chairs_Line1249 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:616][205]MapCheck:Warning: Warning Table_and_chairs_Line1249 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:616][205]MapCheck:Warning: Warning Table_and_chairs_Line1249 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:616][205]MapCheck:Error: Error Table_and_chairs_Line1250 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:616][205]MapCheck:Warning: Warning Table_and_chairs_Line1250 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:616][205]MapCheck:Warning: Warning Table_and_chairs_Line1250 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:617][205]MapCheck:Error: Error Table_and_chairs_Line1251 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:617][205]MapCheck:Warning: Warning Table_and_chairs_Line1251 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:617][205]MapCheck:Warning: Warning Table_and_chairs_Line1251 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:617][205]MapCheck:Error: Error Table_and_chairs_Line1252 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:617][205]MapCheck:Warning: Warning Table_and_chairs_Line1252 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:617][205]MapCheck:Warning: Warning Table_and_chairs_Line1252 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:617][205]MapCheck:Error: Error Table_and_chairs_Line1253 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:617][205]MapCheck:Warning: Warning Table_and_chairs_Line1253 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:617][205]MapCheck:Warning: Warning Table_and_chairs_Line1253 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:617][205]MapCheck:Error: Error Table_and_chairs_Line1254 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:617][205]MapCheck:Warning: Warning Table_and_chairs_Line1254 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:618][205]MapCheck:Warning: Warning Table_and_chairs_Line1254 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:618][205]MapCheck:Error: Error Table_and_chairs_Line1255 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:618][205]MapCheck:Warning: Warning Table_and_chairs_Line1255 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:618][205]MapCheck:Warning: Warning Table_and_chairs_Line1255 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:618][205]MapCheck:Error: Error Table_and_chairs_mat_005_694 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:618][205]MapCheck:Warning: Warning Table_and_chairs_mat_005_694 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:618][205]MapCheck:Warning: Warning Table_and_chairs_mat_005_694 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:618][205]MapCheck:Error: Error Table_and_chairs_mat_006_696 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:618][205]MapCheck:Warning: Warning Table_and_chairs_mat_006_696 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:618][205]MapCheck:Warning: Warning Table_and_chairs_mat_006_696 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:618][205]MapCheck:Error: Error Table_and_chairs_mat_007_698 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:618][205]MapCheck:Warning: Warning Table_and_chairs_mat_007_698 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:618][205]MapCheck:Warning: Warning Table_and_chairs_mat_007_698 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:619][205]MapCheck:Error: Error Table_and_chairs_mat_008_700 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:619][205]MapCheck:Warning: Warning Table_and_chairs_mat_008_700 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:619][205]MapCheck:Warning: Warning Table_and_chairs_mat_008_700 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:619][205]MapCheck:Error: Error Table_and_chairs_mat_10 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:619][205]MapCheck:Warning: Warning Table_and_chairs_mat_10 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:619][205]MapCheck:Warning: Warning Table_and_chairs_mat_10 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:619][205]MapCheck:Error: Error Table_and_chairs_mat_11 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:619][205]MapCheck:Warning: Warning Table_and_chairs_mat_11 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:619][205]MapCheck:Warning: Warning Table_and_chairs_mat_11 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:619][205]MapCheck:Error: Error Table_and_chairs_mat_12 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:619][205]MapCheck:Warning: Warning Table_and_chairs_mat_12 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:619][205]MapCheck:Warning: Warning Table_and_chairs_mat_12 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:620][205]MapCheck:Error: Error Table_and_chairs_mat_13 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:620][205]MapCheck:Warning: Warning Table_and_chairs_mat_13 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:620][205]MapCheck:Warning: Warning Table_and_chairs_mat_13 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:620][205]MapCheck:Error: Error Table_and_chairs_mat_14 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:620][205]MapCheck:Warning: Warning Table_and_chairs_mat_14 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:620][205]MapCheck:Warning: Warning Table_and_chairs_mat_14 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:620][205]MapCheck:Error: Error Table_and_chairs_mat_15 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:620][205]MapCheck:Warning: Warning Table_and_chairs_mat_15 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:620][205]MapCheck:Warning: Warning Table_and_chairs_mat_15 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:620][205]MapCheck:Error: Error Table_and_chairs_mat_16 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:620][205]MapCheck:Warning: Warning Table_and_chairs_mat_16 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:620][205]MapCheck:Warning: Warning Table_and_chairs_mat_16 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:621][205]MapCheck:Error: Error Table_and_chairs_mat_17 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:621][205]MapCheck:Warning: Warning Table_and_chairs_mat_17 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:621][205]MapCheck:Warning: Warning Table_and_chairs_mat_17 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:621][205]MapCheck:Error: Error Table_and_chairs_mat_6 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:621][205]MapCheck:Warning: Warning Table_and_chairs_mat_6 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:621][205]MapCheck:Warning: Warning Table_and_chairs_mat_6 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:621][205]MapCheck:Error: Error Table_and_chairs_mat_7 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:621][205]MapCheck:Warning: Warning Table_and_chairs_mat_7 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:621][205]MapCheck:Warning: Warning Table_and_chairs_mat_7 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:621][205]MapCheck:Error: Error Table_and_chairs_mat_8 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:621][205]MapCheck:Warning: Warning Table_and_chairs_mat_8 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:621][205]MapCheck:Warning: Warning Table_and_chairs_mat_8 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:622][205]MapCheck:Error: Error Table_and_chairs_mat_9 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:622][205]MapCheck:Warning: Warning Table_and_chairs_mat_9 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:622][205]MapCheck:Warning: Warning Table_and_chairs_mat_9 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:622][205]MapCheck:Error: Error Table_and_chairs_Object008_734 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:622][205]MapCheck:Warning: Warning Table_and_chairs_Object008_734 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:622][205]MapCheck:Warning: Warning Table_and_chairs_Object008_734 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:622][205]MapCheck:Error: Error Table_and_chairs_Plane001_736 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:622][205]MapCheck:Warning: Warning Table_and_chairs_Plane001_736 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:622][205]MapCheck:Warning: Warning Table_and_chairs_Plane001_736 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:622][205]MapCheck:Error: Error Table_and_chairs_seat_002_740 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:622][205]MapCheck:Warning: Warning Table_and_chairs_seat_002_740 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:623][205]MapCheck:Warning: Warning Table_and_chairs_seat_002_740 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:623][205]MapCheck:Error: Error Table_and_chairs_seat_3 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:623][205]MapCheck:Warning: Warning Table_and_chairs_seat_3 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:623][205]MapCheck:Warning: Warning Table_and_chairs_seat_3 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:623][205]MapCheck:Error: Error Table_and_chairs_seat_4 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:623][205]MapCheck:Warning: Warning Table_and_chairs_seat_4 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:623][205]MapCheck:Warning: Warning Table_and_chairs_seat_4 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:623][205]MapCheck:Error: Error Table_and_chairs_seat_5 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:623][205]MapCheck:Warning: Warning Table_and_chairs_seat_5 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:623][205]MapCheck:Warning: Warning Table_and_chairs_seat_5 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:623][205]MapCheck:Error: Error Table_and_chairs_Sphere001_750 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:623][205]MapCheck:Warning: Warning Table_and_chairs_Sphere001_750 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:624][205]MapCheck:Warning: Warning Table_and_chairs_Sphere001_750 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:624][205]MapCheck:Error: Error Table_and_chairs_Sphere002_752 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:624][205]MapCheck:Warning: Warning Table_and_chairs_Sphere002_752 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:624][205]MapCheck:Warning: Warning Table_and_chairs_Sphere002_752 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:624][205]MapCheck:Error: Error Table_and_chairs_Sphere003_754 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:624][205]MapCheck:Warning: Warning Table_and_chairs_Sphere003_754 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:624][205]MapCheck:Warning: Warning Table_and_chairs_Sphere003_754 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:624][205]MapCheck:Error: Error Table_and_chairs_Sphere004_756 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.08.16-12.26.48:624][205]MapCheck:Warning: Warning Table_and_chairs_Sphere004_756 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:624][205]MapCheck:Warning: Warning Table_and_chairs_Sphere004_756 Static mesh actor has NULL StaticMesh property 
+[2016.08.16-12.26.48:624][205]MapCheck:Error: Error TVImage TVImage : Invalid DrawScale/DrawScale3D 
+[2016.08.16-12.26.48:782][205]MapCheck: Info Map check complete: 90 Error(s), 172 Warning(s), took 303.873ms to complete.
+[2016.08.16-12.28.16:418][882]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.16-12.28.17:166][882]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 107 classes and 0 folders.
+[2016.08.16-12.29.38:023][128]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020F22FB5800
+[2016.08.16-12.29.38:253][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture" FILE="../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Architecture.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.08.16-12.29.40:375][128]LogSavePackage: Save=1656.693970ms
+[2016.08.16-12.29.40:375][128]LogSavePackage: Moving '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Architecture66D25FCF46224D3D87D4AB89DEDE2416.tmp' to '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Architecture.umap'
+[2016.08.16-12.29.40:385][128]LogSavePackage: Total save time: 2079.523049ms
+[2016.08.16-12.29.40:385][128]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Architecture.umap
+[2016.08.16-12.29.40:457][128]LogFileHelpers: Saving map 'Architecture' took 2.313
+[2016.08.16-12.29.40:515][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plant/BrownMaterial" FILE="../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Plant/BrownMaterial.uasset" SILENT=true
+[2016.08.16-12.29.40:585][128]LogSavePackage: Save=58.706509ms
+[2016.08.16-12.29.40:585][128]LogSavePackage: Moving '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/BrownMaterialF312A53347356AEF58FFE7BD2ADA5FC3.tmp' to '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Plant/BrownMaterial.uasset'
+[2016.08.16-12.29.40:591][128]LogSavePackage: Total save time: 73.540661ms
+[2016.08.16-12.29.40:591][128]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Plant/BrownMaterial.uasset
+[2016.08.16-12.29.40:639][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plant/LeafGreenMaterial" FILE="../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Plant/LeafGreenMaterial.uasset" SILENT=true
+[2016.08.16-12.29.40:673][128]LogSavePackage: Save=19.440763ms
+[2016.08.16-12.29.40:673][128]LogSavePackage: Moving '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/LeafGreenMaterial622954574B5C99B920C4888813F4797C.tmp' to '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Plant/LeafGreenMaterial.uasset'
+[2016.08.16-12.29.40:677][128]LogSavePackage: Total save time: 35.458807ms
+[2016.08.16-12.29.40:677][128]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Plant/LeafGreenMaterial.uasset
+[2016.08.16-12.29.40:723][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plant/SoilMaterial" FILE="../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Plant/SoilMaterial.uasset" SILENT=true
+[2016.08.16-12.29.40:754][128]LogSavePackage: Save=19.730824ms
+[2016.08.16-12.29.40:754][128]LogSavePackage: Moving '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/SoilMaterialD65CC4C24E0D94E999840BA01C078EE2.tmp' to '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Plant/SoilMaterial.uasset'
+[2016.08.16-12.29.40:758][128]LogSavePackage: Total save time: 33.123598ms
+[2016.08.16-12.29.40:758][128]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Plant/SoilMaterial.uasset
+[2016.08.16-12.29.40:802][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plant/StemGreenMaterial" FILE="../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Plant/StemGreenMaterial.uasset" SILENT=true
+[2016.08.16-12.29.40:834][128]LogSavePackage: Save=21.227537ms
+[2016.08.16-12.29.40:834][128]LogSavePackage: Moving '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/StemGreenMaterial4C43D2EB4CF719AC742511957FE615B9.tmp' to '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Plant/StemGreenMaterial.uasset'
+[2016.08.16-12.29.40:839][128]LogSavePackage: Total save time: 35.426680ms
+[2016.08.16-12.29.40:839][128]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Plant/StemGreenMaterial.uasset
+[2016.08.16-12.29.40:850][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ExportButtonBlueprint" FILE="../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Blueprints/ExportButtonBlueprint.uasset" SILENT=true
+[2016.08.16-12.29.40:867][128]LogSavePackage: Save=13.573503ms
+[2016.08.16-12.29.40:867][128]LogSavePackage: Moving '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/ExportButtonBlueprint694466E441B4CA20597025B7A52954B8.tmp' to '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Blueprints/ExportButtonBlueprint.uasset'
+[2016.08.16-12.29.40:872][128]LogSavePackage: Total save time: 18.735692ms
+[2016.08.16-12.29.40:872][128]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Blueprints/ExportButtonBlueprint.uasset
+[2016.08.16-12.30.58:619][893]BlueprintLog: New page: Compile Architecture
+[2016.08.16-12.30.58:752][893]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020F22FB59E0
+[2016.08.16-12.30.58:815][893]BlueprintEditorCompileResults: Info [0814.62] Compile of Architecture successful! [in 196 ms]
+[2016.08.16-12.31.01:715][ 59]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.16-12.31.01:715][ 59]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.08.16-12.31.01:715][ 59]LogPlayLevel: [PlayLevel] Compiling ExportButtonBlueprint before play...
+[2016.08.16-12.31.01:798][ 59]LogPlayLevel: PlayLevel: Blueprint regeneration took 83 ms (2 blueprints)
+[2016.08.16-12.31.01:800][ 59]LogPlayLevel: [PlayLevel] Compiling Architecture before play...
+[2016.08.16-12.31.01:889][ 59]LogPlayLevel: PlayLevel: Blueprint regeneration took 173 ms (2 blueprints)
+[2016.08.16-12.31.01:934][ 59]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020F7BB99B20
+[2016.08.16-12.31.01:941][ 59]PIE: New page: PIE session: Architecture (16-Aug-2016 11:31:01 pm)
+[2016.08.16-12.31.01:942][ 59]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Architecture
+[2016.08.16-12.31.01:981][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039588s)
+[2016.08.16-12.31.01:982][ 59]LogAIModule: Creating AISystem for world Architecture
+[2016.08.16-12.31.01:982][ 59]LogPlayLevel: PIE: World Init took: (0.001045s)
+[2016.08.16-12.31.01:982][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Architecture.Architecture to /Game/UEDPIE_0_Architecture.Architecture (0.041032s)
+[2016.08.16-12.31.02:035][ 59]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.16-12.31.02:044][ 59]LogInit: FAudioDevice initialized.
+[2016.08.16-12.31.02:083][ 59]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.08.16-12.31.02:096][ 59]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet2.StaticMeshComponent0)
+[2016.08.16-12.31.02:104][ 59]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet3.StaticMeshComponent0)
+[2016.08.16-12.31.02:106][ 59]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet.StaticMeshComponent0)
+[2016.08.16-12.31.02:109][ 59]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.TVImage.StaticMeshComponent0)
+[2016.08.16-12.31.02:114][ 59]LogWorld: Bringing World /Game/UEDPIE_0_Architecture.Architecture up for play (max tick rate 60) at 2016.08.16-18.01.02
+[2016.08.16-12.31.02:114][ 59]LogActor:Warning: GameSession /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.16-12.31.02:115][ 59]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.16-12.31.02:115][ 59]LogWorld: Bringing up level for play took: 0.031456
+[2016.08.16-12.31.02:119][ 59]PIE: Info Play in editor start time for /Game/UEDPIE_0_Architecture -0.229
+[2016.08.16-12.31.02:119][ 59]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.16-12.31.09:660][266]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.16-12.31.09:717][266]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.16-12.31.09:799][267]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020FA15AE840
+[2016.08.16-12.32.27:062][933]LogEditorViewport: Clicking on Actor (LMB): Floor_C (Floor)
+[2016.08.16-12.32.29:354][ 65]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.08.16-12.36.21:781][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ExportButtonBlueprint" FILE="../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Blueprints/ExportButtonBlueprint.uasset" SILENT=true
+[2016.08.16-12.36.21:814][492]LogSavePackage: Save=16.388432ms
+[2016.08.16-12.36.21:815][492]LogSavePackage: Moving '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/ExportButtonBlueprint300F278D4A39D438B64A5280A53E818B.tmp' to '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Blueprints/ExportButtonBlueprint.uasset'
+[2016.08.16-12.36.21:819][492]LogSavePackage: Total save time: 35.930939ms
+[2016.08.16-12.36.21:819][492]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Blueprints/ExportButtonBlueprint.uasset
+[2016.08.16-12.39.48:157][633]LogSavePackage: Save=1598.771973ms
+[2016.08.16-12.39.48:158][633]LogSavePackage: Moving '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Architecture_Auto19217A25E4922AACCB1F195ACFD2263B3.tmp' to '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Architecture_Auto1.umap'
+[2016.08.16-12.39.48:193][633]LogSavePackage: Total save time: 1658.819854ms
+[2016.08.16-12.39.48:193][633]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Architecture_Auto1.umap
+[2016.08.16-12.39.48:196][633]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Architecture' took 1.780
+[2016.08.16-12.39.48:196][633]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.780
+[2016.08.16-12.43.22:794][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture" FILE="../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Architecture.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.08.16-12.43.24:431][154]LogSavePackage: Save=1577.449829ms
+[2016.08.16-12.43.24:431][154]LogSavePackage: Moving '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Architecture4F2E5E214CC26E75ED94B6B6CBD49CA3.tmp' to '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Architecture.umap'
+[2016.08.16-12.43.24:437][154]LogSavePackage: Total save time: 1590.685036ms
+[2016.08.16-12.43.24:437][154]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Architecture.umap
+[2016.08.16-12.43.24:479][154]LogFileHelpers: Saving map 'Architecture' took 1.798
+[2016.08.16-12.43.35:241][773]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Plugins/. Error: 0
+[2016.08.16-13.01.14:767][ 99]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Architecture' took 0.067
+[2016.08.16-13.01.14:774][ 99]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/ExportButtonBlueprint] ([1] browsable assets)...
+[2016.08.16-13.01.14:774][ 99]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/ExportButtonBlueprint]
+[2016.08.16-13.01.14:810][ 99]LogSavePackage: Save=18.426443ms
+[2016.08.16-13.01.14:810][ 99]LogSavePackage: Moving '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/ExportButtonBlueprint_Auto29FF1AD64427E82FF172944AB4E66266F.tmp' to '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/ExportButtonBlueprint_Auto2.uasset'
+[2016.08.16-13.01.14:813][ 99]LogSavePackage: Total save time: 37.334386ms
+[2016.08.16-13.01.14:813][ 99]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/ExportButtonBlueprint_Auto2.uasset
+[2016.08.16-13.01.14:813][ 99]LogFileHelpers: Auto-saving content packages took 0.045
+[2016.08.16-13.04.27:197][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ExportButtonBlueprint" FILE="../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Blueprints/ExportButtonBlueprint.uasset" SILENT=true
+[2016.08.16-13.04.27:231][992]LogSavePackage: Save=23.298571ms
+[2016.08.16-13.04.27:231][992]LogSavePackage: Moving '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/ExportButtonBlueprint6552A98C4170E2B6F7C0DF815A761923.tmp' to '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Blueprints/ExportButtonBlueprint.uasset'
+[2016.08.16-13.04.27:235][992]LogSavePackage: Total save time: 35.381608ms
+[2016.08.16-13.04.27:235][992]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Blueprints/ExportButtonBlueprint.uasset
+[2016.08.16-13.04.32:168][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanBag2)
+[2016.08.16-13.04.33:792][331]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanBag3)
+[2016.08.16-13.04.35:096][404]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanBag)
+[2016.08.16-13.04.36:044][457]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanBag4)
+[2016.08.16-13.04.54:364][478]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanBag2)
+[2016.08.16-13.05.00:730][787]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BeanBag2)
+[2016.08.16-13.05.01:630][834]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanBag2)
+[2016.08.16-13.05.01:803][840]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BeanBag2)
+[2016.08.16-13.05.16:685][680]LogRenderer: Reallocating scene render targets to support 1016x608 (Frame:3256).
+[2016.08.16-13.06.38:388][174]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BeanBag2)
+[2016.08.16-13.07.52:111][502]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.08.16-13.09.39:802][332]Cmd: EDIT COPY
+[2016.08.16-13.09.40:048][332]Cmd: EDIT COPY
+[2016.08.16-13.09.40:165][339]Cmd: EDIT COPY
+[2016.08.16-13.09.40:331][349]Cmd: EDIT COPY
+[2016.08.16-13.09.40:498][359]Cmd: EDIT COPY
+[2016.08.16-13.09.40:648][368]Cmd: EDIT COPY
+[2016.08.16-13.09.40:816][378]Cmd: EDIT COPY
+[2016.08.16-13.09.41:000][389]Cmd: EDIT COPY
+[2016.08.16-13.09.41:166][399]Cmd: EDIT COPY
+[2016.08.16-13.09.41:333][409]Cmd: EDIT COPY
+[2016.08.16-13.09.41:516][420]Cmd: EDIT COPY
+[2016.08.16-13.09.41:700][431]Cmd: EDIT COPY
+[2016.08.16-13.09.41:905][443]Cmd: EDIT COPY
+[2016.08.16-13.09.42:469][476]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BeanBag)
+[2016.08.16-13.09.45:003][611]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BeanBag)
+[2016.08.16-13.09.50:578][906]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BeanBag3)
+[2016.08.16-13.09.50:855][918]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BeanBag3)
+[2016.08.16-13.10.12:322][ 56]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BeanBag3)
+[2016.08.16-13.10.21:106][559]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BeanBag3)
+[2016.08.16-13.11.17:251][424]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BeanBag3)
+[2016.08.16-13.12.21:753][169]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020FA15AC720
+[2016.08.16-13.12.21:754][169]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020F54F316C0
+[2016.08.16-13.12.21:759][169]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Architecture' took 0.079
+[2016.08.16-13.12.21:766][169]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/ExportButtonBlueprint] ([1] browsable assets)...
+[2016.08.16-13.12.21:766][169]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/ExportButtonBlueprint]
+[2016.08.16-13.12.21:811][169]LogSavePackage: Save=16.750338ms
+[2016.08.16-13.12.21:811][169]LogSavePackage: Moving '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/ExportButtonBlueprint_Auto34FD24E7244188704677AEDB411E71966.tmp' to '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/ExportButtonBlueprint_Auto3.uasset'
+[2016.08.16-13.12.21:813][169]LogSavePackage: Total save time: 43.364972ms
+[2016.08.16-13.12.21:813][169]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Blueprints/ExportButtonBlueprint_Auto3.uasset
+[2016.08.16-13.12.21:813][169]LogFileHelpers: Auto-saving content packages took 0.053
+[2016.08.16-13.13.49:544][361]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020FA197F4C0
+[2016.08.16-13.13.49:552][361]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020F9F98CFE0
+[2016.08.16-13.13.49:584][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ExportButtonBlueprint" FILE="../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Blueprints/ExportButtonBlueprint.uasset" SILENT=true
+[2016.08.16-13.13.49:609][361]LogSavePackage: Save=18.603603ms
+[2016.08.16-13.13.49:609][361]LogSavePackage: Moving '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Saved/ExportButtonBlueprintCB01F20740266BCC22CD88BB4F67112C.tmp' to '../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Blueprints/ExportButtonBlueprint.uasset'
+[2016.08.16-13.13.49:640][361]LogSavePackage: Total save time: 55.025414ms
+[2016.08.16-13.13.49:640][361]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Blueprints/ExportButtonBlueprint.uasset
+[2016.08.16-13.13.50:844][423]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.08.16-13.13.51:217][424]Cmd: QUIT_EDITOR
+[2016.08.16-13.13.52:045][424]LogExit: Preparing to exit.
+[2016.08.16-13.13.52:940][424]LogExit: Editor shut down
+[2016.08.16-13.13.52:942][424]LogExit: Transaction tracking system shut down
+[2016.08.16-13.13.52:985][424]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020F16F6AAC0
+[2016.08.16-13.13.52:987][424]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020F030FD6C0
+[2016.08.16-13.13.52:988][424]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020F138A9BC0
+[2016.08.16-13.13.52:988][424]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020F138AA840
+[2016.08.16-13.13.52:988][424]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020F1C5E4220
+[2016.08.16-13.13.54:455][424]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000020F9F98F560
+[2016.08.16-13.13.54:455][424]LogExit: Object subsystem successfully closed.
+[2016.08.16-13.13.54:566][424]LogD3D11RHI: Shutdown
+[2016.08.16-13.13.54:566][424]LogD3D11RHI: CleanupD3DDevice
+[2016.08.16-13.13.55:781][424]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.08.16-13.13.55:831][424]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (203)
+[2016.08.16-13.13.55:831][424]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (202)
+[2016.08.16-13.13.55:831][424]LogModuleManager: Shutting down and abandoning module CookingStats (201)
+[2016.08.16-13.13.55:832][424]LogModuleManager: Shutting down and abandoning module SequencerWidgets (200)
+[2016.08.16-13.13.55:832][424]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.08.16-13.13.55:832][424]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.08.16-13.13.55:832][424]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.08.16-13.13.55:832][424]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.08.16-13.13.55:832][424]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.08.16-13.13.55:832][424]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.08.16-13.13.55:844][424]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.08.16-13.13.55:844][424]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.08.16-13.13.55:844][424]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.08.16-13.13.55:844][424]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.08.16-13.13.55:844][424]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.08.16-13.13.55:845][424]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.08.16-13.13.55:845][424]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.08.16-13.13.55:845][424]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.08.16-13.13.55:845][424]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.08.16-13.13.55:845][424]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.08.16-13.13.55:845][424]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.08.16-13.13.55:845][424]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.08.16-13.13.55:845][424]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.08.16-13.13.55:845][424]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.08.16-13.13.55:845][424]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.08.16-13.13.55:845][424]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.08.16-13.13.55:845][424]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.08.16-13.13.55:845][424]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.08.16-13.13.55:845][424]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.08.16-13.13.55:846][424]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.08.16-13.13.55:846][424]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.08.16-13.13.56:627][424]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.08.16-13.13.56:627][424]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.08.16-13.13.56:627][424]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.08.16-13.13.56:627][424]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.08.16-13.13.56:627][424]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.08.16-13.13.56:627][424]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.08.16-13.13.56:627][424]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.08.16-13.13.56:627][424]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.08.16-13.13.56:627][424]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.08.16-13.13.56:627][424]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.08.16-13.13.56:627][424]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.08.16-13.13.56:627][424]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.08.16-13.13.56:627][424]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.08.16-13.13.56:627][424]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.08.16-13.13.56:627][424]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.08.16-13.13.56:627][424]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.08.16-13.13.56:627][424]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.08.16-13.13.56:627][424]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.08.16-13.13.56:627][424]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.08.16-13.13.56:627][424]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.08.16-13.13.56:627][424]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.08.16-13.13.56:628][424]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.08.16-13.13.56:628][424]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.08.16-13.13.56:628][424]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.08.16-13.13.56:628][424]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.08.16-13.13.56:628][424]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.08.16-13.13.56:628][424]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.08.16-13.13.56:628][424]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.08.16-13.13.56:628][424]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.08.16-13.13.56:628][424]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.08.16-13.13.56:628][424]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.08.16-13.13.56:628][424]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.08.16-13.13.56:628][424]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.08.16-13.13.56:628][424]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.08.16-13.13.56:628][424]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.08.16-13.13.56:629][424]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.08.16-13.13.56:630][424]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.08.16-13.13.56:630][424]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.08.16-13.13.56:631][424]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.08.16-13.13.56:631][424]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.08.16-13.13.56:631][424]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.08.16-13.13.56:631][424]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.08.16-13.13.56:631][424]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.08.16-13.13.56:631][424]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.08.16-13.13.56:631][424]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.08.16-13.13.56:631][424]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.08.16-13.13.56:631][424]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.08.16-13.13.56:631][424]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.08.16-13.13.56:631][424]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.08.16-13.13.56:631][424]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.08.16-13.13.56:807][424]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.08.16-13.13.56:807][424]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.08.16-13.13.56:807][424]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.08.16-13.13.56:807][424]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.08.16-13.13.56:807][424]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.08.16-13.13.56:807][424]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.08.16-13.13.56:807][424]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.08.16-13.13.56:807][424]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.08.16-13.13.56:831][424]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.08.16-13.13.56:831][424]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.08.16-13.13.56:831][424]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.08.16-13.13.56:831][424]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.08.16-13.13.56:831][424]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.08.16-13.13.56:831][424]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.08.16-13.13.56:831][424]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.08.16-13.13.56:831][424]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.08.16-13.13.56:831][424]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.08.16-13.13.56:831][424]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.08.16-13.13.56:831][424]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.08.16-13.13.56:831][424]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.08.16-13.13.56:831][424]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.08.16-13.13.56:831][424]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.08.16-13.13.56:831][424]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.08.16-13.13.56:831][424]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.08.16-13.13.56:831][424]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.08.16-13.13.56:831][424]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.08.16-13.13.56:831][424]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.08.16-13.13.56:831][424]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.08.16-13.13.56:831][424]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.08.16-13.13.56:831][424]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.08.16-13.13.56:832][424]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.08.16-13.13.56:832][424]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.08.16-13.13.56:833][424]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.08.16-13.13.56:840][424]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.08.16-13.13.56:998][424]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.08.16-13.13.57:000][424]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.08.16-13.13.57:000][424]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.08.16-13.13.57:100][424]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.08.16-13.13.57:100][424]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.08.16-13.13.57:100][424]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.08.16-13.13.57:107][424]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.08.16-13.13.57:107][424]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.08.16-13.13.57:107][424]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.08.16-13.13.57:107][424]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.08.16-13.13.57:107][424]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.08.16-13.13.57:108][424]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.08.16-13.13.57:108][424]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.08.16-13.13.57:108][424]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.08.16-13.13.57:108][424]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.08.16-13.13.57:108][424]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.08.16-13.13.57:108][424]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.08.16-13.13.57:108][424]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.08.16-13.13.57:108][424]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.08.16-13.13.57:108][424]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.08.16-13.13.57:108][424]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.08.16-13.13.57:108][424]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.08.16-13.13.57:114][424]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.08.16-13.13.57:114][424]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.08.16-13.13.57:114][424]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.08.16-13.13.57:114][424]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.08.16-13.13.57:114][424]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.08.16-13.13.57:114][424]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.08.16-13.13.57:114][424]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.08.16-13.13.57:114][424]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.08.16-13.13.57:114][424]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.08.16-13.13.57:114][424]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.08.16-13.13.57:186][424]LogDerivedDataCache: Shutdown
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.08.16-13.13.57:186][424]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.08.16-13.13.57:187][424]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.08.16-13.13.57:187][424]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.08.16-13.13.57:187][424]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.08.16-13.13.57:187][424]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.08.16-13.13.57:187][424]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.08.16-13.13.57:187][424]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.08.16-13.13.57:187][424]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.08.16-13.13.59:190][424]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.08.16-13.13.59:190][424]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.08.16-13.13.59:190][424]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.08.16-13.13.59:190][424]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.08.16-13.13.59:190][424]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.08.16-13.13.59:190][424]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.08.16-13.13.59:190][424]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.08.16-13.13.59:211][424]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.08.16-13.13.59:211][424]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.08.16-13.13.59:211][424]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.08.16-13.13.59:211][424]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.08.16-13.13.59:211][424]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.08.16-13.13.59:211][424]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.08.16-13.13.59:211][424]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.08.16-13.13.59:211][424]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.08.16-13.13.59:211][424]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.08.16-13.13.59:211][424]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.08.16-13.13.59:212][424]LogExit: Exiting.
+[2016.08.16-13.13.59:252][424]Log file closed, 08/16/16 18:43:59

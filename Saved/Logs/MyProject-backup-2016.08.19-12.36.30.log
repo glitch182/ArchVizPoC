@@ -1,0 +1,1562 @@
+﻿[2016.08.19-07.04.01:520][  0]Log file open, 08/19/16 12:34:01
+[2016.08.19-07.04.01:520][  0]LogInit:Display: Running engine for game: MyProject
+[2016.08.19-07.04.01:520][  0]LogPlatformFile: Not using cached read wrapper
+[2016.08.19-07.04.01:520][  0]LogInit:Display: RandInit(-315472024) SRandInit(-315472023).
+[2016.08.19-07.04.01:520][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.08.19-07.04.01:520][  0]LogStats: Stats thread started at 0.070275
+[2016.08.19-07.04.01:520][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.08.19-07.04.01:520][  0]LogInit: API Version: 2758231
+[2016.08.19-07.04.01:520][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.08.19-07.04.01:520][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.08.19-07.04.01:520][  0]LogInit: Build Configuration: Development
+[2016.08.19-07.04.01:520][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.08.19-07.04.01:520][  0]LogInit: Command line:  
+[2016.08.19-07.04.01:520][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.08.19-07.04.01:520][  0]LogInit: Rocket: 1
+[2016.08.19-07.04.01:531][  0]LogInit: Using libcurl 7.41.0
+[2016.08.19-07.04.01:531][  0]LogInit:  - built for x86_64-pc-win32
+[2016.08.19-07.04.01:531][  0]LogInit:  - supports SSL with WinSSL
+[2016.08.19-07.04.01:531][  0]LogInit:  - other features:
+[2016.08.19-07.04.01:531][  0]LogInit:      CURL_VERSION_SSL
+[2016.08.19-07.04.01:531][  0]LogInit:      CURL_VERSION_IPV6
+[2016.08.19-07.04.01:531][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.08.19-07.04.01:531][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.08.19-07.04.01:531][  0]LogInit:      CURL_VERSION_IDN
+[2016.08.19-07.04.01:531][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.08.19-07.04.01:531][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.08.19-07.04.01:531][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.08.19-07.04.01:531][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.08.19-07.04.01:531][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.08.19-07.04.01:541][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.08.19-07.04.01:548][  0]LogInit: Object subsystem initialized
+[2016.08.19-07.04.01:549][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.19-07.04.01:549][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.08.19-07.04.01:580][  0]LogInit: Computer: VISHAL-PC
+[2016.08.19-07.04.01:580][  0]LogInit: User: Vishal
+[2016.08.19-07.04.01:580][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.08.19-07.04.01:580][  0]LogInit: High frequency timer resolution =2.240908 MHz
+[2016.08.19-07.04.01:580][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.08.19-07.04.01:580][  0]LogMemory: Platform Memory Stats for Windows
+[2016.08.19-07.04.01:580][  0]LogMemory: Process Physical Memory: 61.41 MB used, 61.41 MB peak
+[2016.08.19-07.04.01:580][  0]LogMemory: Process Virtual Memory: 60.88 MB used, 60.88 MB peak
+[2016.08.19-07.04.01:580][  0]LogMemory: Physical Memory: 3685.52 MB used, 8075.38 MB total
+[2016.08.19-07.04.01:580][  0]LogMemory: Virtual Memory: 385.50 MB used, 134217728.00 MB total
+[2016.08.19-07.04.01:646][  0]LogTextLocalizationManager: No specific translations for ('en-IN') exist, so ('en') translations will be used.
+[2016.08.19-07.04.02:208][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce 820M              (Feature Level 11_0)
+[2016.08.19-07.04.02:208][  0]LogD3D11RHI: Adapter has 1999MB of dedicated video memory, 0MB of dedicated system memory, and 4037MB of shared system memory, 1 output[s]
+[2016.08.19-07.04.02:219][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2016.08.19-07.04.02:219][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2016.08.19-07.04.02:222][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.08.19-07.04.02:222][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4037MB of shared system memory, 0 output[s]
+[2016.08.19-07.04.02:222][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.08.19-07.04.02:230][  0]LogD3D11RHI: !Direct3DDevice
+[2016.08.19-07.04.02:230][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.08.19-07.04.02:250][  0]LogD3D11RHI: Async texture creation enabled
+[2016.08.19-07.04.02:264][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Intermediate/Shaders/WorkingDirectory/3668/).
+[2016.08.19-07.04.02:264][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Vishal/AppData/Local/Temp/UnrealShaderWorkingDir/0AF7D6A441FB2FEF5D4279817D59BA05/'.
+[2016.08.19-07.04.02:264][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.08.19-07.04.03:466][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.08.19-07.04.03:472][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.08.19-07.04.03:479][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.08.19-07.04.03:486][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.08.19-07.04.03:492][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.08.19-07.04.03:498][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.08.19-07.04.03:503][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.08.19-07.04.03:509][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.08.19-07.04.03:514][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.08.19-07.04.03:520][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.08.19-07.04.03:525][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.08.19-07.04.03:536][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.08.19-07.04.03:536][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.08.19-07.04.03:540][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.08.19-07.04.03:562][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.08.19-07.04.03:567][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.08.19-07.04.03:572][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.08.19-07.04.03:578][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.08.19-07.04.03:578][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.08.19-07.04.03:697][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.08.19-07.04.03:754][  0]LogDerivedDataCache: Loaded boot cache 0.06s 41MB C:/Users/Vishal/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.08.19-07.04.03:754][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Vishal/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.08.19-07.04.03:755][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.08.19-07.04.03:755][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.08.19-07.04.03:755][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.08.19-07.04.03:755][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.08.19-07.04.03:838][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.08.19-07.04.03:850][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Vishal/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.08.19-07.04.04:074][  0]LogInit: Selected Device Profile: [Windows]
+[2016.08.19-07.04.04:079][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.08.19-07.04.04:214][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.08.19-07.04.04:214][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.08.19-07.04.04:472][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.08.19-07.04.05:383][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.08.19-07.04.05:503][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2016.08.19-07.04.05:757][  0]SourceControl: Info Source control is disabled
+[2016.08.19-07.04.05:758][  0]SourceControl: Info Source control is disabled
+[2016.08.19-07.04.05:780][  0]SourceControl: Info Source control is disabled
+[2016.08.19-07.04.05:798][  0]SourceControl: Info Source control is disabled
+[2016.08.19-07.04.06:122][  0]LogObj: 28894 objects as part of root set at end of initial load.
+[2016.08.19-07.04.06:122][  0]LogUObjectAllocator: 6143824 out of 0 bytes used by permanent object pool.
+[2016.08.19-07.04.06:194][  0]LogEngine: Initializing Engine...
+[2016.08.19-07.04.06:198][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.08.19-07.04.06:201][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.08.19-07.04.06:362][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.08.19-07.04.06:372][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.19-07.04.06:399][  0]LogInit: FAudioDevice initialized.
+[2016.08.19-07.04.06:428][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Vishal/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.08.19-07.04.06:434][  0]LogInit: Texture streaming: Enabled
+[2016.08.19-07.04.06:442][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.08.19-07.04.06:442][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.08.19-07.04.06:442][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 42581dee49f10cab728e808031ad0d6c|b3aa724033af48eb807787bc6a36fc12|7d3f72a1-08fb-45f7-99a2-cbbddc55c18e
+[2016.08.19-07.04.06:442][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.08.19-07.04.06:455][  0]LogInit: Transaction tracking system initialized
+[2016.08.19-07.04.06:491][  0]BlueprintLog: New page: Editor Load
+[2016.08.19-07.04.06:608][  0]LocalizationService: Info Localization service is disabled
+[2016.08.19-07.04.06:714][  0]LogConsoleResponse:Display: 
+[2016.08.19-07.04.06:874][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.08.19-07.04.06:962][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Vishal/Documents/Unreal Projects/MyProject/Content/' took 0.02s
+[2016.08.19-07.04.06:962][  0]SourceControl: Info Source control is disabled
+[2016.08.19-07.04.06:962][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Vishal/Documents/Unreal Projects/MyProject/Content/Architecture.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.08.19-07.04.06:963][  0]LightingResults: New page: Lighting Build
+[2016.08.19-07.04.06:965][  0]MapCheck: New page: Map Check
+[2016.08.19-07.04.06:965][  0]LightingResults: New page: Lighting Build
+[2016.08.19-07.04.06:989][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E88D2B9C60
+[2016.08.19-07.04.08:920][  0]LogAIModule: Creating AISystem for world Architecture
+[2016.08.19-07.04.08:930][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.Carpet2.StaticMeshComponent0)
+[2016.08.19-07.04.08:933][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.Carpet3.StaticMeshComponent0)
+[2016.08.19-07.04.08:935][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.Carpet.StaticMeshComponent0)
+[2016.08.19-07.04.08:937][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/Architecture.Architecture:PersistentLevel.TVImage.StaticMeshComponent0)
+[2016.08.19-07.04.08:953][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.08.19-07.04.08:954][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.08.19-07.04.09:056][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 102.137ms to complete.
+[2016.08.19-07.04.09:056][  0]LogFileHelpers: Loading map 'Architecture' took 2.094
+[2016.08.19-07.04.09:182][  0]LogCollectionManager: Loaded 0 collections in 0.002197 seconds
+[2016.08.19-07.04.09:222][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Vishal/Documents/Unreal Projects/MyProject/Saved/Collections/' took 0.01s
+[2016.08.19-07.04.09:222][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Vishal/Documents/Unreal Projects/MyProject/Content/Developers/Vishal/Collections/' took 0.01s
+[2016.08.19-07.04.09:222][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Vishal/Documents/Unreal Projects/MyProject/Content/Collections/' took 0.01s
+[2016.08.19-07.04.09:222][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.08.19-07.04.09:232][  0]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 1898 classes and 345 folders.
+[2016.08.19-07.04.09:238][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.08.19-07.04.09:305][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.08.19-07.04.09:320][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.08.19-07.04.09:398][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.08.19-07.04.09:403][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.08.19-07.04.09:425][  0]LogLoad: Full Startup: 8.37 seconds (BP compile: 0.19 seconds)
+[2016.08.19-07.04.09:443][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.08.19-07.04.09:448][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.08.19-07.04.09:525][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.08.19-07.04.09:672][  0]LogRenderer: Reallocating scene render targets to support 808x368 (Frame:2).
+[2016.08.19-07.04.10:280][  6]LogAssetRegistry: Asset discovery search completed in 4.7876 seconds
+[2016.08.19-07.04.10:280][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.08.19-07.04.10:280][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2016.08.19-07.04.17:760][396]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.08.19-07.04.18:243][396]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 107 classes and 0 folders.
+[2016.08.19-07.04.27:643][908]BlueprintLog: New page: Compile ExportButtonBlueprint
+[2016.08.19-07.04.28:014][908]BlueprintEditorCompileResults: Info [0026.96] Compile of ExportButtonBlueprint successful! [in 370 ms]
+[2016.08.19-07.04.29:744][  7]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.19-07.04.29:744][  7]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.19-07.04.29:745][  7]PIE: New page: PIE session: Architecture (19-Aug-2016 6:04:29 pm)
+[2016.08.19-07.04.29:745][  7]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Architecture
+[2016.08.19-07.04.29:784][  7]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039663s)
+[2016.08.19-07.04.29:785][  7]LogAIModule: Creating AISystem for world Architecture
+[2016.08.19-07.04.29:785][  7]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2016.08.19-07.04.29:786][  7]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Architecture.Architecture to /Game/UEDPIE_0_Architecture.Architecture (0.040993s)
+[2016.08.19-07.04.29:838][  7]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.19-07.04.29:848][  7]LogInit: FAudioDevice initialized.
+[2016.08.19-07.04.29:992][  7]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.08.19-07.04.30:002][  7]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet2.StaticMeshComponent0)
+[2016.08.19-07.04.30:010][  7]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet3.StaticMeshComponent0)
+[2016.08.19-07.04.30:012][  7]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet.StaticMeshComponent0)
+[2016.08.19-07.04.30:015][  7]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.TVImage.StaticMeshComponent0)
+[2016.08.19-07.04.30:020][  7]LogWorld: Bringing World /Game/UEDPIE_0_Architecture.Architecture up for play (max tick rate 60) at 2016.08.19-12.34.30
+[2016.08.19-07.04.30:020][  7]LogActor:Warning: GameSession /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.19-07.04.30:021][  7]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.19-07.04.30:022][  7]LogWorld: Bringing up level for play took: 0.029597
+[2016.08.19-07.04.30:035][  7]PIE: Info Play in editor start time for /Game/UEDPIE_0_Architecture 0.015
+[2016.08.19-07.04.30:036][  7]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.19-07.04.30:549][ 18]LogBlueprintUserMessages: [ExportButtonBlueprint_C_1] {"rows":{"revitName":"ArchVizPOC","checktype":"1","WallDetails":{"rWall":[{"Wcolor":"223-16-21","Wuid":"BeanBag_Blueprint","Weid":"BeanBag_Blueprint"},{"Wcolor":"66-201-57","Wuid":"BeanBag2_Blueprint","Weid":"BeanBag2_Blueprint"}]}}}
+[2016.08.19-07.04.37:528][205]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.19-07.04.37:716][205]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.19-07.04.37:810][206]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E8D6D7CAE0
+[2016.08.19-07.05.47:473][356]BlueprintLog: New page: Compile ExportButtonBlueprint
+[2016.08.19-07.05.47:637][356]BlueprintEditorCompileResults: Info [0106.59] Compile of ExportButtonBlueprint successful! [in 163 ms]
+[2016.08.19-07.05.49:096][438]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.19-07.05.49:096][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.19-07.05.49:096][438]PIE: New page: PIE session: Architecture (19-Aug-2016 6:05:49 pm)
+[2016.08.19-07.05.49:096][438]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Architecture
+[2016.08.19-07.05.49:137][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041184s)
+[2016.08.19-07.05.49:156][438]LogAIModule: Creating AISystem for world Architecture
+[2016.08.19-07.05.49:156][438]LogPlayLevel: PIE: World Init took: (0.018969s)
+[2016.08.19-07.05.49:157][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Architecture.Architecture to /Game/UEDPIE_0_Architecture.Architecture (0.060551s)
+[2016.08.19-07.05.49:211][438]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.19-07.05.49:220][438]LogInit: FAudioDevice initialized.
+[2016.08.19-07.05.49:259][438]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.08.19-07.05.49:268][438]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet2.StaticMeshComponent0)
+[2016.08.19-07.05.49:276][438]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet3.StaticMeshComponent0)
+[2016.08.19-07.05.49:278][438]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet.StaticMeshComponent0)
+[2016.08.19-07.05.49:280][438]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.TVImage.StaticMeshComponent0)
+[2016.08.19-07.05.49:286][438]LogWorld: Bringing World /Game/UEDPIE_0_Architecture.Architecture up for play (max tick rate 60) at 2016.08.19-12.35.49
+[2016.08.19-07.05.49:286][438]LogActor:Warning: GameSession /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.19-07.05.49:286][438]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.19-07.05.49:287][438]LogWorld: Bringing up level for play took: 0.027681
+[2016.08.19-07.05.49:323][438]PIE: Info Play in editor start time for /Game/UEDPIE_0_Architecture -0.698
+[2016.08.19-07.05.49:323][438]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.19-07.05.53:775][536]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.19-07.05.53:828][536]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.19-07.05.53:878][536]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E8D70A5EE0
+[2016.08.19-07.06.03:862][ 86]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.19-07.06.03:863][ 86]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.08.19-07.06.03:863][ 86]PIE: New page: PIE session: Architecture (19-Aug-2016 6:06:03 pm)
+[2016.08.19-07.06.03:863][ 86]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Architecture
+[2016.08.19-07.06.03:900][ 86]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036836s)
+[2016.08.19-07.06.03:900][ 86]LogAIModule: Creating AISystem for world Architecture
+[2016.08.19-07.06.03:901][ 86]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2016.08.19-07.06.03:901][ 86]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Architecture.Architecture to /Game/UEDPIE_0_Architecture.Architecture (0.038042s)
+[2016.08.19-07.06.03:967][ 86]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.08.19-07.06.03:977][ 86]LogInit: FAudioDevice initialized.
+[2016.08.19-07.06.04:016][ 86]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.08.19-07.06.04:027][ 86]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet2.StaticMeshComponent0)
+[2016.08.19-07.06.04:038][ 86]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet3.StaticMeshComponent0)
+[2016.08.19-07.06.04:041][ 86]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.Carpet.StaticMeshComponent0)
+[2016.08.19-07.06.04:045][ 86]LogPrimitiveComponent: Zero scaling not supported (/Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.TVImage.StaticMeshComponent0)
+[2016.08.19-07.06.04:050][ 86]LogWorld: Bringing World /Game/UEDPIE_0_Architecture.Architecture up for play (max tick rate 60) at 2016.08.19-12.36.04
+[2016.08.19-07.06.04:050][ 86]LogActor:Warning: GameSession /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.19-07.06.04:050][ 86]LogActor:Warning: GameNetworkManager /Game/UEDPIE_0_Architecture.Architecture:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.08.19-07.06.04:051][ 86]LogWorld: Bringing up level for play took: 0.034632
+[2016.08.19-07.06.04:054][ 86]PIE: Info Play in editor start time for /Game/UEDPIE_0_Architecture 0.034
+[2016.08.19-07.06.04:054][ 86]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Architecture.Architecture:PersistentLevel' has LevelScriptBlueprint '/Game/Architecture.Architecture:PersistentLevel.Architecture' with GeneratedClass '/Game/Architecture.Architecture_C' with ClassGeneratedBy '/Game/Architecture.Architecture:PersistentLevel.Architecture'
+[2016.08.19-07.06.04:660][ 99]LogBlueprintUserMessages: [ExportButtonBlueprint_C_4] {"rows":{"revitName":"ArchVizPOC","checktype":"1","WallDetails":{"rWall":[{"Wcolor":"223-16-21","Wuid":"BeanBag_Blueprint","Weid":"BeanBag_Blueprint"},{"Wcolor":"66-201-57","Wuid":"BeanBag2_Blueprint","Weid":"BeanBag2_Blueprint"}]}}}
+[2016.08.19-07.06.04:666][ 99]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_VariableSet', from offset 3944
+[2016.08.19-07.06.04:677][ 99]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/ExportButtonBlueprint.ExportButtonBlueprint_C:ExecuteUbergraph_ExportButtonBlueprint
+
+[2016.08.19-07.06.19:634][ 99]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_AddDelegate', from offset 3988
+[2016.08.19-07.06.19:634][ 99]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/ExportButtonBlueprint.ExportButtonBlueprint_C:ExecuteUbergraph_ExportButtonBlueprint
+
+[2016.08.19-07.06.19:812][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.19:832][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.19:844][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.19:861][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.19:874][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.19:892][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.19:909][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.19:926][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.19:940][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.19:957][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.19:972][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.19:991][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:005][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:025][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:039][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:058][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:074][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:088][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:105][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:123][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:139][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:155][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:170][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:188][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:203][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:221][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:237][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:254][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:270][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:288][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:303][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:321][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:337][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:355][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:370][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:388][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:404][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:421][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:437][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:455][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:470][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:489][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:504][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:522][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:537][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:555][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:570][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:589][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:604][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:621][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:637][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:655][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:670][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:689][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:763][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:776][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:791][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:806][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:824][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.20:838][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.21:155][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.21:167][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.21:186][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.21:625][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.21:637][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.21:656][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.21:668][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.21:684][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.21:745][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.21:748][ 99]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_AddDelegate', from offset 4054
+[2016.08.19-07.06.21:748][ 99]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/ExportButtonBlueprint.ExportButtonBlueprint_C:ExecuteUbergraph_ExportButtonBlueprint
+
+[2016.08.19-07.06.21:911][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.21:911][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.21:923][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.21:923][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.21:936][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.21:936][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.21:954][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.21:954][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.21:970][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.21:970][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.21:987][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.21:987][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:003][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:003][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:021][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:021][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:037][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:037][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:054][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:054][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:071][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:071][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:086][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:086][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:101][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:101][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:118][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:118][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:133][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:133][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:151][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:151][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:167][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:167][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:184][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:184][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:199][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:199][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:219][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:219][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:232][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:232][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:251][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:251][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:268][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:268][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:284][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:285][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:300][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:300][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:316][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:316][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:331][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:331][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:348][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:348][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:361][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:361][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:376][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:376][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:392][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:392][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:408][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:408][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:420][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:420][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:435][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:435][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:453][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:453][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:468][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:468][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:485][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:485][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:501][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:501][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:518][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:518][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:532][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:532][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:551][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:551][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:565][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:565][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:584][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:584][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:598][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:598][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:616][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:616][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:632][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:632][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:649][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:649][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:664][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:664][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:682][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:682][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:698][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:698][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:715][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:715][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:729][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:729][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:748][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:748][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:767][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:767][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.22:782][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.22:782][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:184][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:184][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:198][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:198][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:212][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:212][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:361][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:361][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:371][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:371][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:490][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:490][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:492][ 99]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_GetRequestObject', from offset 4097
+[2016.08.19-07.06.23:492][ 99]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/ExportButtonBlueprint.ExportButtonBlueprint_C:ExecuteUbergraph_ExportButtonBlueprint
+
+[2016.08.19-07.06.23:648][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:648][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:648][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.23:661][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:661][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:661][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.23:674][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:674][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:674][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.23:691][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:691][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:691][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.23:705][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:705][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:705][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.23:720][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:720][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:720][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.23:736][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:736][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:737][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.23:752][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:752][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:752][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.23:770][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:770][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:770][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.23:781][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:781][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:781][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.23:798][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:798][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:798][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.23:810][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:810][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:810][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.23:824][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:824][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:824][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.23:842][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:842][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:842][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.23:856][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:856][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:856][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.23:874][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:874][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:874][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.23:889][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:889][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:889][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.23:907][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:907][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:907][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.23:922][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:922][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:922][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.23:939][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:939][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:940][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.23:954][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:954][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:954][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.23:972][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:972][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:972][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.23:987][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.23:987][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.23:987][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:005][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:005][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:005][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:020][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:020][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:020][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:039][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:039][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:039][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:054][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:054][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:054][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:072][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:072][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:072][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:086][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:086][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:086][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:101][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:101][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:101][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:115][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:116][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:116][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:132][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:132][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:132][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:145][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:145][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:145][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:158][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:159][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:159][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:176][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:176][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:176][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:192][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:192][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:192][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:209][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:209][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:209][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:223][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:223][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:224][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:242][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:242][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:242][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:257][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:258][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:258][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:276][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:276][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:276][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:296][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:296][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:296][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:298][ 99]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_SetObjectField', from offset 4141
+[2016.08.19-07.06.24:298][ 99]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/ExportButtonBlueprint.ExportButtonBlueprint_C:ExecuteUbergraph_ExportButtonBlueprint
+
+[2016.08.19-07.06.24:477][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:477][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:477][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:477][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:487][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:487][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:487][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:487][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:505][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:505][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:505][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:505][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:520][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:520][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:520][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:520][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:538][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:538][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:538][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:538][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:553][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:553][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:553][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:554][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:570][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:570][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:570][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:570][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:585][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:585][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:585][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:585][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:603][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:603][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:603][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:603][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:618][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:618][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:618][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:618][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:636][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:636][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:636][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:636][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:650][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:650][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:651][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:651][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:668][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:668][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:668][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:668][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:684][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:684][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:684][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:685][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:700][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:700][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:700][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:701][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:716][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:716][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:716][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:716][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:731][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:731][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:731][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:731][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:746][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:746][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:746][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:746][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:764][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:764][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:764][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:764][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:775][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:775][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:775][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:775][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:788][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:788][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:788][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:788][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:805][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:805][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:805][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:805][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:819][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:819][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:819][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:819][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:838][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:838][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:838][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:838][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:852][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:852][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:853][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:853][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:870][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:870][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:870][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:870][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:885][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:885][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:885][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:885][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:903][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:903][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:903][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:903][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:918][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:918][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:918][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:918][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:934][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:934][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:934][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:934][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:949][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:949][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:949][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:950][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:964][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:964][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:965][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:965][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:979][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:980][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:980][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:980][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.24:995][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.24:995][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.24:995][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.24:995][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:008][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:008][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:008][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:008][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:023][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:023][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:023][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:023][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:039][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:039][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:039][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:039][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:053][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:053][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:054][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:054][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:072][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:072][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:072][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:073][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:086][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:086][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:086][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:086][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:104][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:104][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:104][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:104][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:119][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:119][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:119][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:119][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:137][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:137][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:137][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:137][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:152][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:152][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:152][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:152][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:171][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:171][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:171][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:171][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:185][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:185][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:185][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:185][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:203][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:203][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:203][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:203][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:220][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:221][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:221][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:221][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:223][ 99]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_ProcessURL', from offset 10
+[2016.08.19-07.06.25:223][ 99]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/ExportButtonBlueprint.ExportButtonBlueprint_C:ExecuteUbergraph_ExportButtonBlueprint
+
+[2016.08.19-07.06.25:393][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:393][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:393][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:393][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:393][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:404][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:404][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:404][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:404][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:405][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:418][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:418][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:418][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:418][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:418][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:436][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:436][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:436][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:437][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:437][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:450][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:450][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:450][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:450][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:450][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:468][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:468][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:468][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:468][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:468][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:483][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:483][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:483][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:483][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:484][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:500][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:500][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:500][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:500][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:500][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:514][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:514][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:514][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:514][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:514][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:532][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:532][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:532][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:533][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:533][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:548][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:548][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:548][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:548][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:548][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:561][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:561][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:562][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:562][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:562][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:576][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:576][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:576][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:576][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:577][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:592][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:592][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:592][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:592][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:592][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:608][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:608][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:608][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:608][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:608][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:624][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:624][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:624][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:624][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:625][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:637][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:637][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:637][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:637][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:637][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:650][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:650][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:650][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:650][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:650][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:667][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:667][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:667][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:667][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:667][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:682][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:682][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:682][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:682][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:682][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:699][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:699][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:699][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:699][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:699][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:712][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:712][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:712][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:713][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:713][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:731][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:731][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:731][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:731][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:731][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:745][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:745][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:745][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:745][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:745][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:766][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:766][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:766][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:766][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:766][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:776][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:776][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:776][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:776][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:777][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:792][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:792][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:792][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:792][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:792][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:807][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:807][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:807][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:807][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:807][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:820][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:820][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:820][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:820][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:820][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:837][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:837][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:837][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:837][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:837][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:852][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:852][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:853][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:853][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:853][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:869][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:869][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:869][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:869][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:869][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:884][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:884][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:884][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:884][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:884][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:902][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:902][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:902][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:902][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:902][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:916][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:916][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:916][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:916][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:916][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:934][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:934][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:934][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:934][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:934][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:948][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:948][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:948][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:948][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:948][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:966][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:966][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:966][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:966][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:966][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:982][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:982][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:982][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:982][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:982][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:999][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.25:999][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.25:999][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.25:999][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.25:999][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:014][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.26:014][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.26:014][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:014][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.26:015][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:032][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.26:032][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.26:032][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:032][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.26:032][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:047][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.26:047][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.26:047][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:047][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.26:047][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:063][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.26:063][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.26:063][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:063][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.26:064][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:074][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.26:074][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.26:075][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:075][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.26:075][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:091][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.26:091][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.26:091][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:091][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.26:091][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:105][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.26:105][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.26:105][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:105][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.26:106][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:119][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.26:119][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.26:119][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:119][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.26:119][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:136][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.26:137][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.26:137][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:137][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.26:137][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:151][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.26:151][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.26:151][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:151][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.26:151][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:168][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.26:168][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.26:168][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:168][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.26:168][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:182][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.26:182][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.26:182][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:182][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.26:182][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:201][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.26:201][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.26:201][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:201][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.26:201][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:215][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.26:215][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.26:216][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:216][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.26:216][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:233][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.26:233][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.26:233][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:233][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.26:233][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:248][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.26:248][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.26:248][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:248][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.26:248][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:265][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.26:265][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.26:265][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:266][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.26:266][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:286][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set JSONRequest' to 'Bind Event to OnRequestComplete'.
+[2016.08.19-07.06.26:286][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestComplete' to 'Bind Event to OnRequestFail'.
+[2016.08.19-07.06.26:286][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Bind Event to OnRequestFail' to 'Get Request Object
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:286][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Get Request Object
+Target is Va Rest Request JSON' to 'Set Object Field
+Target is Va Rest Json Object'.
+[2016.08.19-07.06.26:286][ 99]LogConnectionDrawingPolicy:Warning: Looks like a wire-trace was not injected before the jump from 'Set Object Field
+Target is Va Rest Json Object' to 'Process URL
+Target is Va Rest Request JSON'.
+[2016.08.19-07.06.26:289][ 99]LogOutputDevice:Warning: 
+
+Script Stack:
+ExportButtonBlueprint_C.ExecuteUbergraph_ExportButtonBlueprint
+
+[2016.08.19-07.06.26:289][ 99]LogWindows:Error: Windows GetLastError: The operation completed successfully. (0)
+[2016.08.19-07.06.26:686][ 99]LogCrashTracker: 
+
+
+[2016.08.19-07.06.26:686][ 99]LogCrashTracker: 
+
+
+[2016.08.19-07.06.26:686][ 99]LogWindows:Error: === Critical error: ===
+Assertion failed: CanWriteObjectWithoutIdentifier() [File:D:\Program Files\Unreal Engine\4.10\Engine\Source\Runtime\Json\Public\Serialization\JsonWriter.h] [Line: 30] 
+
+
+
+
+
+[2016.08.19-07.06.26:790][ 99]LogExit: Executing StaticShutdownAfterError
+[2016.08.19-07.06.26:803][ 99]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.08.19-07.06.26:803][ 99]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.08.19-07.06.26:803][ 99]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.08.19-07.06.26:803][ 99]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.08.19-07.06.26:803][ 99]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.08.19-07.06.26:804][ 99]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.08.19-07.06.26:804][ 99]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.08.19-07.06.26:804][ 99]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2946) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2016.08.19-07.06.26:804][ 99]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.08.19-07.06.26:804][ 99]Log file closed, 08/19/16 12:36:26
